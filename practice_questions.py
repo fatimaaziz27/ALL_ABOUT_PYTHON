@@ -411,7 +411,7 @@ username_check(check_username)
 # Enter your username: fatima_a
 # Username is available
 
-# Q)Function to return longest word in a sentence. 
+# Q) Function to return longest word in a sentence. 
 
 # CODE:
 
@@ -427,7 +427,7 @@ print("Longest word:", longest_word(sentence))
 # Enter a sentence: the sun was shining
 # Longest word: shining
 
-# Q)Function that checks if string is palindrome using loop. 
+# Q) Function that checks if string is palindrome using loop. 
 
 # CODE:
 
@@ -448,3 +448,82 @@ while True:
 # Enter a string: madam
 # the string is palindrome: madam
 
+# Q) Function to filter products under given price. 
+
+# CODE:
+
+def filter_products_under_price(products, price):
+    return [p for p in products if list(p.values())[0] <= price]
+
+products = [ {'eggs': 100},{'milk': 200},{'bread': 50},]
+
+filtered = filter_products_under_price(products, 150)
+for p in filtered:
+    print(p)
+
+# OUTPUT:
+
+# {'eggs': 100}
+# {'bread': 50}
+
+# Q) Function that masks all passwords in list. 
+
+# CODE:
+
+def mask_password(password):
+    return '*' * len(password)
+
+password = input("Enter your password: ")
+masked_password = mask_password(password)
+print(masked_password)
+
+# OUTPUT:
+
+# Enter your password: fatima.A
+# ********
+
+# Q) Function to count frequency of words in sentence.
+
+# CODE:
+
+def count_words(sentence):
+    words = sentence.split()
+    for word in set(words):
+        print(f"{word}: {words.count(word)}")
+
+sentence = "This is a test this is"
+count_words(sentence.lower())
+
+# OUTPUT:
+
+# this: 2
+# test: 1
+# is: 2
+# a: 1
+
+# Q) Function to extract hashtags from social media post. 
+
+# CODE:
+
+def extract_hashtags(post):
+    words = post.split()
+    return [word.strip('#') for word in words if word.startswith('#')]
+
+post = "#python #something" 
+print(extract_hashtags(post)) 
+
+# OUTPUT:
+
+# ['python', 'something']
+
+# Q) Difference between `return` and `print` in functions?
+
+#ANSWER:
+'''
+Return:
+ Sends value back to the caller.
+ Can be stored in a variable.
+Print:
+Outputs value to the console.
+Can't be stored in a variable.
+'''
