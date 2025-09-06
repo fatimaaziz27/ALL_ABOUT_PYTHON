@@ -392,3 +392,59 @@ while True:
 # Enter product name (or 'quit' to stop): peach
 # Sorry, Peach is not available or not for sale.
 # Enter product name (or 'quit' to stop): quit
+
+# Q) Function to check username availability. 
+
+# CODE:
+
+names = ["fatima_a", "yusra_w", "asfiya_w"]
+check_username = input("Enter your username: ")
+def username_check(username):
+    if username in names:
+        print("Username is available")
+    else:
+        print("Username is not available")
+username_check(check_username)
+
+# OUTPUT:
+
+# Enter your username: fatima_a
+# Username is available
+
+# Q)Function to return longest word in a sentence. 
+
+# CODE:
+
+def longest_word(sentence):
+    words = sentence.split()
+    return max(words, key=len)
+
+sentence = input("Enter a sentence: ")
+print("Longest word:", longest_word(sentence))
+
+# OUTPUT:
+
+# Enter a sentence: the sun was shining
+# Longest word: shining
+
+# Q)Function that checks if string is palindrome using loop. 
+
+# CODE:
+
+def reverse_string(s):
+    return s[::-1]
+s = input("Enter a string: ")
+reverse_string(s)
+while True:
+    if reverse_string(s)==s:
+        print(f"the string is palindrome: {s}")
+        break
+    else:
+        print(f"the string is not palindrome: {s}")
+        break
+
+# OUTPUT:
+
+# Enter a string: madam
+# the string is palindrome: madam
+
