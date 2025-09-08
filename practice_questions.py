@@ -527,3 +527,110 @@ Print:
 Outputs value to the console.
 Can't be stored in a variable.
 '''
+
+# Q) Simulate downloading progress `[### ] 30%`. 
+
+# CODE:
+
+import time
+total_size = 100
+downloaded = 0
+
+while downloaded < total_size:
+    downloaded += 10
+    percentage = int((downloaded / total_size) * 100)
+    progress = "#" * int(percentage / 10)
+    spaces = " " * (10 - int(percentage / 10))
+    print(f"\r[{progress}{spaces}] {percentage}%", end="")
+    time.sleep(0.5)  
+print("\nDownload complete!")
+
+# OUTPUT:
+
+# [##########] 100%
+# Download complete!
+
+# Q) While loop for traffic light simulation. 
+
+# CODE:
+
+import time
+traffic_light = ["Red", "Green", "Yellow"]
+current_light = 0
+while True:
+    print(f"Traffic Light: {traffic_light[current_light]}")
+    if traffic_light[current_light] == "Red":
+        time.sleep(5)  
+    elif traffic_light[current_light] == "Green":
+        time.sleep(10)  
+    else:
+        time.sleep(2) 
+    current_light = (current_light + 1) % 3 
+
+# OUTPUT:
+
+# Traffic Light: Red
+# Traffic Light: Green
+# Traffic Light: Yellow
+# Traffic Light: Red
+# Traffic Light: Green
+# Traffic Light: Yellow
+# Traffic Light: Red
+# Traffic Light: Green
+# Traffic Light: Yellow
+# Traffic Light: Red
+# ** Process Stopped **
+
+# Q) Simulate a taxi meter counting distance. 
+
+# CODE:
+
+distance = 0
+fare = 0
+while True:
+    print("Type 'quit' to exit")
+    user_input = input("Enter distance (km): ")
+    
+    if user_input.lower() == 'quit':
+        break
+    else:
+        km = float(user_input)
+        distance += km
+        fare += km * 10
+        print(f"Distance: {distance} km, Fare: {fare}")
+
+# OUTPUT:
+'''
+Type 'quit' to exit
+Enter distance (km): 6
+Distance: 6.0 km, Fare: 60.0
+Type 'quit' to exit
+Enter distance (km): 4
+Distance: 10.0 km, Fare: 100.0
+Type 'quit' to exit
+Enter distance (km): 3
+Distance: 13.0 km, Fare: 130.0
+Type 'quit' to exit
+Enter distance (km): QUIT
+'''
+
+# Q) Function to simulate dice roll until 6 appears. 
+
+# CODE:
+
+import random
+def roll_until_six():
+    rolls = 0
+    while True:
+        roll = random.randint(1, 6)
+        rolls += 1
+        print(f"Roll {rolls}: {roll}")
+        if roll == 6:
+            print(f"Got a 6 in {rolls} rolls!")
+            break
+roll_until_six()
+
+# OUTPUT:
+# Roll 1: 4
+# Roll 2: 6
+# Got a 6 in 2 rolls!
