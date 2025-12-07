@@ -1,4 +1,4 @@
-## Python Practice Questions
+# ALL_ABOUT_PYTHON
 
 A collection of Python practice questions and solutions covering loops, functions, OOP, and more.
 These exercises are designed to improve problem-solving skills and reinforce Python basics and advanced concepts.
@@ -51,8 +51,3 @@ OOP exercises: Animal/Dog, Vehicle/Car/ElectricCar, Circle/Square area calculati
 
 Real-world simulations: taxi meter, traffic light, dice roll, download progress
 
-## Built With
-
-Python 3.x
-
-Standard Python libraries: random, time, etc.
