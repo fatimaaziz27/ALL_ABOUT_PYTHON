@@ -392,3 +392,59 @@ while True:
 # Enter product name (or 'quit' to stop): peach
 # Sorry, Peach is not available or not for sale.
 # Enter product name (or 'quit' to stop): quit
+
+# Q) Remove duplicates from list manually (without set).
+
+# ANSWER:
+
+def remove_duplicates(lst):
+    new_lst = []
+    for i in lst:
+        if i not in new_lst:
+            new_lst.append(i)
+    return new_lst
+
+lst = [1, 2, 2, 3, 4, 4, 5, 6, 6]
+print(remove_duplicates(lst))  # [1, 2, 3, 4, 5, 6]
+
+# OUTPUT:
+
+# [1, 2, 3, 4, 5, 6]
+
+# Q) Flatten a nested list using loop. 
+
+# ANSWER:
+
+def flatten(nested_lst):
+    flat_lst = []
+    for sublist in nested_lst:
+        for item in sublist:
+            flat_lst.append(item)
+    return flat_lst
+nested_lst = [[1, 2], [3, 4], [5, 6]]
+print(flatten(nested_lst)) 
+
+# OUTPUT:
+
+# [1, 2, 3, 4, 5, 6]
+
+# Q) Count number of urgent messages in chat logs. 
+
+# ANSWER:
+
+chat_logs = [
+    {'message': 'Hello', 'urgent': False},
+    {'message': 'Help!', 'urgent': True},
+    {'message': 'How are you?', 'urgent': False},
+    {'message': 'Emergency!', 'urgent': True}
+]
+
+urgent_count = 0
+for log in chat_logs:
+    if log['urgent']:
+        urgent_count += 1
+print(urgent_count) 
+
+# OUTPUT:
+# 2
+
