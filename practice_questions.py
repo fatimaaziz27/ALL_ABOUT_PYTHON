@@ -392,3 +392,36 @@ while True:
 # Enter product name (or 'quit' to stop): peach
 # Sorry, Peach is not available or not for sale.
 # Enter product name (or 'quit' to stop): quit
+
+#49. Remove duplicates from list manually (without set).
+
+# ANSWER:
+
+def remove_duplicates(lst):
+    new_lst = []
+    for i in lst:
+        if i not in new_lst:
+            new_lst.append(i)
+    return new_lst
+
+lst = [1, 2, 2, 3, 4, 4, 5, 6, 6]
+print(remove_duplicates(lst))  
+
+# output:
+
+# [1, 2, 3, 4, 5, 6]
+
+#50. Flatten a nested list using loop. 
+
+#51. Loop to validate email addresses (must contain `@`). 
+
+#52. Count number of urgent messages in chat logs. 
+
+#53. Loop to show only Pakistani contacts (+92). 
+
+#54. Simulate inventory reduction when order placed. 
+
+#55. Loop through doctor profiles and print specialists only. 
+
+#56. Loop through dictionary of courses per student. 
+
