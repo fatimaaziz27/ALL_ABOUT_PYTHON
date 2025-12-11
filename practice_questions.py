@@ -504,7 +504,7 @@ print(specialists)
 
 # 56. Loop through dictionary of courses per student. 
 
-# CODE:
+# ANSWER:
 
 students_courses = { 'John': ['Math', 'Science', 'English'],
     'Alice': ['History', 'Biology', 'Chemistry'],
@@ -517,4 +517,108 @@ for student, courses in students_courses.items():
 # John: Math, Science, English
 # Alice: History, Biology, Chemistry
 # Bob: Physics, Computer Science, Math
+
+# Interview Qs: 
+
+# 57. How do you iterate over both keys and values in dictionary?
+
+# ANSWER:
+
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+for key, value in my_dict.items():
+    print(f"Key: {key}, Value: {value}")
+
+# OUTPUT:
+
+# Key: a, Value: 1
+# Key: b, Value: 2
+# Key: c, Value: 3
+
+# 58. How to break out of multiple nested loops in Python?
+
+# ANSWER:
+
+# Method 1: Using exceptions
+
+try:
+    for i in range(3):
+        for j in range(3):
+            for k in range(3):
+                print(f"i: {i}, j: {j}, k: {k}")
+                if i == 1 and j == 1 and k == 1:
+                    raise StopIteration
+except StopIteration:
+    print("Loop broken")
+
+# Method 2: Using flags
+
+break_loop = False
+for i in range(3):
+    for j in range(3):
+        for k in range(3):
+            print(f"i: {i}, j: {j}, k: {k}")
+            if i == 1 and j == 1 and k == 1:
+                break_loop = True
+                break
+        if break_loop:
+            break
+    if break_loop:
+        break
+
+# Method 3: Using a function and return
+
+def loop():
+    for i in range(3):
+        for j in range(3):
+            for k in range(3):
+                print(f"i: {i}, j: {j}, k: {k}")
+                if i == 1 and j == 1 and k == 1:
+                    return
+loop()
+
+# OUTPUT:
+
+# i: 0, j: 0, k: 0
+# i: 0, j: 0, k: 1
+# i: 0, j: 0, k: 2
+# i: 0, j: 1, k: 0
+# i: 0, j: 1, k: 1
+# i: 0, j: 1, k: 2
+# i: 0, j: 2, k: 0
+# i: 0, j: 2, k: 1
+# i: 0, j: 2, k: 2
+# i: 1, j: 0, k: 0
+# i: 1, j: 0, k: 1
+# i: 1, j: 0, k: 2
+# i: 1, j: 1, k: 0
+# i: 1, j: 1, k: 1
+# Loop broken
+# i: 0, j: 0, k: 0
+# i: 0, j: 0, k: 1
+# i: 0, j: 0, k: 2
+# i: 0, j: 1, k: 0
+# i: 0, j: 1, k: 1
+# i: 0, j: 1, k: 2
+# i: 0, j: 2, k: 0
+# i: 0, j: 2, k: 1
+# i: 0, j: 2, k: 2
+# i: 1, j: 0, k: 0
+# i: 1, j: 0, k: 1
+# i: 1, j: 0, k: 2
+# i: 1, j: 1, k: 0
+# i: 1, j: 1, k: 1
+# i: 0, j: 0, k: 0
+# i: 0, j: 0, k: 1
+# i: 0, j: 0, k: 2
+# i: 0, j: 1, k: 0
+# i: 0, j: 1, k: 1
+# i: 0, j: 1, k: 2
+# i: 0, j: 2, k: 0
+# i: 0, j: 2, k: 1
+# i: 0, j: 2, k: 2
+# i: 1, j: 0, k: 0
+# i: 1, j: 0, k: 1
+# i: 1, j: 0, k: 2
+# i: 1, j: 1, k: 0
+# i: 1, j: 1, k: 1
 
