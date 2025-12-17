@@ -702,3 +702,31 @@ print(' '.join(reversed_words))
 # OUTPUT:
 
 # olleH dlroW
+
+# Q) Count uppercase vs lowercase letters. 
+
+# CODE:
+
+s = "Hello World"
+uppercase_count = sum(1 for c in s if c.isupper())
+lowercase_count = sum(1 for c in s if c.islower())
+print(f"Uppercase: {uppercase_count}, Lowercase: {lowercase_count}")
+
+# OUTPUT:
+
+# Uppercase: 2, Lowercase: 8
+
+# Q) Validate password (min 8 chars, at least 1 digit). 
+
+# CODE:
+
+password = "Password123"
+if len(password) >= 8 and any(c.isdigit() for c in password):
+    print("Valid")
+else:
+    print("Invalid")
+
+# OUTPUT:
+
+# Valid
+
