@@ -392,3 +392,341 @@ while True:
 # Enter product name (or 'quit' to stop): peach
 # Sorry, Peach is not available or not for sale.
 # Enter product name (or 'quit' to stop): quit
+
+# Q) Remove duplicates from list manually (without set).
+
+# ANSWER:
+
+def remove_duplicates(lst):
+    new_lst = []
+    for i in lst:
+        if i not in new_lst:
+            new_lst.append(i)
+    return new_lst
+
+lst = [1, 2, 2, 3, 4, 4, 5, 6, 6]
+print(remove_duplicates(lst))  # [1, 2, 3, 4, 5, 6]
+
+# OUTPUT:
+
+# [1, 2, 3, 4, 5, 6]
+
+# Q) Flatten a nested list using loop. 
+
+# ANSWER:
+
+def flatten(nested_lst):
+    flat_lst = []
+    for sublist in nested_lst:
+        for item in sublist:
+            flat_lst.append(item)
+    return flat_lst
+nested_lst = [[1, 2], [3, 4], [5, 6]]
+print(flatten(nested_lst)) 
+
+# OUTPUT:
+
+# [1, 2, 3, 4, 5, 6]
+
+# Q) Count number of urgent messages in chat logs. 
+
+# ANSWER:
+
+chat_logs = [
+    {'message': 'Hello', 'urgent': False},
+    {'message': 'Help!', 'urgent': True},
+    {'message': 'How are you?', 'urgent': False},
+    {'message': 'Emergency!', 'urgent': True}
+]
+
+urgent_count = 0
+for log in chat_logs:
+    if log['urgent']:
+        urgent_count += 1
+print(urgent_count) 
+
+# OUTPUT:
+# 2
+
+# 53. Loop to show only Pakistani contacts (+92). 
+
+# ANSWER:
+
+contacts = [
+    {'name': 'John', 'phone': '+1234567890'},
+    {'name': 'Ali', 'phone': '+923123456789'},
+    {'name': 'Jane', 'phone': '+9876543210'},
+    {'name': 'Ahmad', 'phone': '+923987654321'}
+]
+
+pakistani_contacts = []
+for contact in contacts:
+    if contact['phone'].startswith('+92'):
+        pakistani_contacts.append(contact)
+print(pakistani_contacts)
+
+# OUTPUT:
+
+#[{'name': 'Ali', 'phone': '+923123456789'}, {'name': 'Ahmad', 'phone': '+923987654321'}]
+
+# 54. Simulate inventory reduction when order placed. 
+
+# ANSWER:
+
+inventory = {'item1': 10, 'item2': 5, 'item3': 8}
+order = {'item1': 2, 'item2': 1}
+
+for item, quantity in order.items():
+    if item in inventory:
+        inventory[item] -= quantity
+print(inventory)
+
+# OUTPUT:
+
+#{'item1': 8, 'item2': 4, 'item3': 8}
+
+# 55. Loop through doctor profiles and print specialists only. 
+
+# ANSWER:
+
+doctors = [ {'name': 'Dr. Smith', 'specialty': 'Cardiology'},
+    {'name': 'Dr. Johnson', 'specialty': 'General Practice'},
+    {'name': 'Dr. Lee', 'specialty': 'Neurology'}]
+specialists = []
+for doctor in doctors:
+    if doctor['specialty'] != 'General Practice':
+        specialists.append(doctor)
+print(specialists)
+
+# OUTPUT:
+
+# [{'name': 'Dr. Smith', 'specialty': 'Cardiology'}, {'name': 'Dr. Lee', 'specialty': 'Neurology'}]
+
+# 56. Loop through dictionary of courses per student. 
+
+# ANSWER:
+
+students_courses = { 'John': ['Math', 'Science', 'English'],
+    'Alice': ['History', 'Biology', 'Chemistry'],
+    'Bob': ['Physics', 'Computer Science', 'Math']}
+for student, courses in students_courses.items():
+    print(f'{student}: {", ".join(courses)}')
+
+# OUTPUT:
+
+# John: Math, Science, English
+# Alice: History, Biology, Chemistry
+# Bob: Physics, Computer Science, Math
+
+# Interview Qs: 
+
+# 57. How do you iterate over both keys and values in dictionary?
+
+# ANSWER:
+
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+for key, value in my_dict.items():
+    print(f"Key: {key}, Value: {value}")
+
+# OUTPUT:
+
+# Key: a, Value: 1
+# Key: b, Value: 2
+# Key: c, Value: 3
+
+# 58. How to break out of multiple nested loops in Python?
+
+# ANSWER:
+
+# Method 1: Using exceptions
+
+try:
+    for i in range(3):
+        for j in range(3):
+            for k in range(3):
+                print(f"i: {i}, j: {j}, k: {k}")
+                if i == 1 and j == 1 and k == 1:
+                    raise StopIteration
+except StopIteration:
+    print("Loop broken")
+
+# Method 2: Using flags
+
+break_loop = False
+for i in range(3):
+    for j in range(3):
+        for k in range(3):
+            print(f"i: {i}, j: {j}, k: {k}")
+            if i == 1 and j == 1 and k == 1:
+                break_loop = True
+                break
+        if break_loop:
+            break
+    if break_loop:
+        break
+
+# Method 3: Using a function and return
+
+def loop():
+    for i in range(3):
+        for j in range(3):
+            for k in range(3):
+                print(f"i: {i}, j: {j}, k: {k}")
+                if i == 1 and j == 1 and k == 1:
+                    return
+loop()
+
+# OUTPUT:
+
+# i: 0, j: 0, k: 0
+# i: 0, j: 0, k: 1
+# i: 0, j: 0, k: 2
+# i: 0, j: 1, k: 0
+# i: 0, j: 1, k: 1
+# i: 0, j: 1, k: 2
+# i: 0, j: 2, k: 0
+# i: 0, j: 2, k: 1
+# i: 0, j: 2, k: 2
+# i: 1, j: 0, k: 0
+# i: 1, j: 0, k: 1
+# i: 1, j: 0, k: 2
+# i: 1, j: 1, k: 0
+# i: 1, j: 1, k: 1
+# Loop broken
+# i: 0, j: 0, k: 0
+# i: 0, j: 0, k: 1
+# i: 0, j: 0, k: 2
+# i: 0, j: 1, k: 0
+# i: 0, j: 1, k: 1
+# i: 0, j: 1, k: 2
+# i: 0, j: 2, k: 0
+# i: 0, j: 2, k: 1
+# i: 0, j: 2, k: 2
+# i: 1, j: 0, k: 0
+# i: 1, j: 0, k: 1
+# i: 1, j: 0, k: 2
+# i: 1, j: 1, k: 0
+# i: 1, j: 1, k: 1
+# i: 0, j: 0, k: 0
+# i: 0, j: 0, k: 1
+# i: 0, j: 0, k: 2
+# i: 0, j: 1, k: 0
+# i: 0, j: 1, k: 1
+# i: 0, j: 1, k: 2
+# i: 0, j: 2, k: 0
+# i: 0, j: 2, k: 1
+# i: 0, j: 2, k: 2
+# i: 1, j: 0, k: 0
+# i: 1, j: 0, k: 1
+# i: 1, j: 0, k: 2
+# i: 1, j: 1, k: 0
+# i: 1, j: 1, k: 1
+
+# Q) Remove duplicate characters from string (no set).
+
+# ANSWER:
+
+def remove_duplicates(s):
+    result = ""
+    for char in s:
+        if char not in result:
+            result += char
+    return result
+
+# Example usage:
+s = "Programming"
+print("Original string:", s)
+print("String without duplicates:", remove_duplicates(s))
+
+# OUTPUT:
+
+# Original string: Programming
+# String without duplicates: Progamin
+
+# Q) Find first non-repeated character in string. 
+
+# ANSWER:
+
+def first_non_repeated(s):
+    for char in s:
+        if s.count(char) == 1:
+            return char
+    return None
+
+# Example usage:
+s = "none"
+print("First non-repeated character:", first_non_repeated(s))
+
+# OUTPUT:
+# First non-repeated character: o
+
+# Q) Rotate string left (`abc` → `bca`)
+
+# ANSWER:
+
+s = "abc"
+print(s[1:] + s[0])
+
+# OUTPUT:
+# bca
+
+# Q) Compress string (`aaabb` → `a3b2`). 
+
+# ANSWER:
+
+s = "aaabb"
+result = ""
+count = 1
+for i in range(1, len(s)):
+    if s[i] == s[i-1]:
+        count += 1
+    else:
+        result += s[i-1] + str(count)
+        count = 1
+result += s[-1] + str(count)
+print(result)
+
+# OUTPUT:
+
+# a3b2
+
+# Q) Reverse words in sentence without slicing. 
+
+# ANSWER:
+
+sentence = "Hello World"
+words = sentence.split()
+reversed_words = [word[::-1] for word in words]
+print(' '.join(reversed_words))
+
+# OUTPUT:
+
+# olleH dlroW
+
+# Q) Count uppercase vs lowercase letters. 
+
+# CODE:
+
+s = "Hello World"
+uppercase_count = sum(1 for c in s if c.isupper())
+lowercase_count = sum(1 for c in s if c.islower())
+print(f"Uppercase: {uppercase_count}, Lowercase: {lowercase_count}")
+
+# OUTPUT:
+
+# Uppercase: 2, Lowercase: 8
+
+# Q) Validate password (min 8 chars, at least 1 digit). 
+
+# CODE:
+
+password = "Password123"
+if len(password) >= 8 and any(c.isdigit() for c in password):
+    print("Valid")
+else:
+    print("Invalid")
+
+# OUTPUT:
+
+# Valid
+
