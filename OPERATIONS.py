@@ -1,6 +1,6 @@
 #                                      Operations:
 
-# Q) What will be the output of the following code?
+# Q1) What will be the output of the following code?
 
 x = 10
 y = 20
@@ -8,9 +8,9 @@ z =  5
 print(x>y or y>z and not (x==10))
 
 # OUTPUT:
-# True
+# False
 
-# Q) What will be the output of the following code?
+# Q2) What will be the output of the following code?
 
 a = 5
 b = 10
@@ -20,7 +20,7 @@ print(a<b and b<c or a>c)
 # OUTPUT:
 # True
 
-# Q) What will be the output of the following code?
+# Q3) What will be the output of the following code?
 
 a = True
 print (not a)
@@ -28,7 +28,7 @@ print (not a)
 # OUTPUT:
 # False
 
-# Q) What will be the output of the following code?
+# Q4) What will be the output of the following code?
 
 x = 7
 y = 14
@@ -37,30 +37,30 @@ print(x>10 or y==14)
 # OUTPUT:
 # True
 
-# Q) What will be the output of the following code?
+# Q5) What will be the output of the following code?
 
 a = 5
 b = 10
 print(a>2 and b<20)
 
 # OUTPUT:
-# True
+# False
 
-# Q) What will be the output of the following code?
+# Q6) What will be the output of the following code?
 
 print(10 == "10")
 
 # OUTPUT:
 # False
 
-# Q) What will be the output of the following code?
+# Q7) What will be the output of the following code?
 
 print("appe" > "banana")
 
 # OUTPUT:
 # True
 
-# Q) What will be the output of the following code?
+# Q8) What will be the output of the following code?
 
 x = "hello"
 y = "HelLo"
@@ -69,7 +69,7 @@ print(x != y)
 # OUTPUT:
 # True
 
-# Q) What will be the output of the following code?
+# Q9) What will be the output of the following code?
 
 a = 10
 b = 10.0
@@ -78,7 +78,7 @@ print(a == b)
 # OUTPUT:
 # True
 
-# Q) What will be the output of the following code?
+# Q10) What will be the output of the following code?
 
 x = 5
 y = 5
@@ -87,14 +87,14 @@ print(x <= y)
 # OUTPUT:
 # True
 
-# Q) What will be the output of the following code?
+# Q11) What will be the output of the following code?
 
 print(-10 % 3)
 
 # OUTPUT:
 # 2
 
-# Q) What will be the output of the following code?
+# Q12) What will be the output of the following code?
 
 result = 7 / 3
 print(result)
@@ -102,7 +102,7 @@ print(result)
 # OUTPUT:
 # 2.3333333333333335
 
-# Q) What will be the output of the following code?
+# Q13) What will be the output of the following code?
 
 a = 8
 b = 3
@@ -110,9 +110,9 @@ c = (a + b) * (a - b) // b
 print(c)
 
 # OUTPUT:
-# 22
+# 18
 
-# Q) What will be the output of the following code?
+# Q14) What will be the output of the following code?
 
 base = 3
 power = 4
@@ -122,7 +122,7 @@ print(result)
 # OUTPUT:
 # 81
 
-# Q) What will be the output of the following code?
+# Q15) What will be the output of the following code?
 
 x = 17
 y = 5
@@ -131,7 +131,7 @@ print(x % y)
 # OUTPUT:
 # 2
 
-# Q) What will be the output of the following code?
+# Q16) What will be the output of the following code?
 
 x = 10
 y = 2
@@ -141,7 +141,7 @@ print(result)
 # OUTPUT:
 # 4.0
 
-# Q) What will be the output of the following code?
+# Q17) What will be the output of the following code?
 
 a = 15
 b = 7
@@ -151,7 +151,7 @@ print(c)
 # OUTPUT:
 # 17
 
-# Q) What will be the output of the following code?
+# Q18) What will be the output of the following code?
 
 result = 10 + 5 * 2 - 3 / 1
 print(result)
@@ -159,7 +159,7 @@ print(result)
 # OUTPUT:
 # 17.0
 
-# Q) What will be the output of the following code?
+# Q19) What will be the output of the following code?
 
 print(True and not False)
 print(False or not False)
@@ -168,7 +168,7 @@ print(False or not False)
 # True
 # True
 
-# Q) What will be the output of the following code?
+# Q20) What will be the output of the following code?
 
 x = 4
 y = 8
@@ -177,7 +177,7 @@ print((x < y) and (y % x == 0))
 # OUTPUT:
 # True
 
-# Q) What will be the output of the following code?
+# Q21) What will be the output of the following code?
 
 print("apple" == "Apple")
 print("hello" != "Hello")
