@@ -55,3 +55,135 @@ print(10 == "10")
 
 # Q) What will be the output of the following code?
 
+print("appe" > "banana")
+
+# OUTPUT:
+# True
+
+# Q) What will be the output of the following code?
+
+x = "hello"
+y = "HelLo"
+print(x != y)
+
+# OUTPUT:
+# True
+
+# Q) What will be the output of the following code?
+
+a = 10
+b = 10.0
+print(a == b)
+
+# OUTPUT:
+# True
+
+# Q) What will be the output of the following code?
+
+x = 5
+y = 5
+print(x <= y)
+
+# OUTPUT:
+# True
+
+# Q) What will be the output of the following code?
+
+print(-10 % 3)
+
+# OUTPUT:
+# 2
+
+# Q) What will be the output of the following code?
+
+result = 7 / 3
+print(result)
+
+# OUTPUT:
+# 2.3333333333333335
+
+# Q) What will be the output of the following code?
+
+a = 8
+b = 3
+c = (a + b) * (a - b) // b
+print(c)
+
+# OUTPUT:
+# 22
+
+# Q) What will be the output of the following code?
+
+base = 3
+power = 4
+result = base ** power
+print(result)
+
+# OUTPUT:
+# 81
+
+# Q) What will be the output of the following code?
+
+x = 17
+y = 5
+print(x % y)
+
+# OUTPUT:
+# 2
+
+# Q) What will be the output of the following code?
+
+x = 10
+y = 2
+result = x * y / 5
+print(result)
+
+# OUTPUT:
+# 4.0
+
+# Q) What will be the output of the following code?
+
+a = 15
+b = 7
+c = a + b - 5
+print(c)
+
+# OUTPUT:
+# 17
+
+# Q) What will be the output of the following code?
+
+result = 10 + 5 * 2 - 3 / 1
+print(result)
+
+# OUTPUT:
+# 17.0
+
+# Q) What will be the output of the following code?
+
+print(True and not False)
+print(False or not False)
+
+# OUTPUT:
+# True
+# True
+
+# Q) What will be the output of the following code?
+
+x = 4
+y = 8
+print((x < y) and (y % x == 0))
+
+# OUTPUT:
+# True
+
+# Q) What will be the output of the following code?
+
+print("apple" == "Apple")
+print("hello" != "Hello")
+print("world" < "python")
+
+# OUTPUT:
+# False
+# True
+# False
