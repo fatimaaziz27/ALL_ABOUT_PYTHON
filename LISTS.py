@@ -2,6 +2,48 @@
 
 # Q) What will be the output of the following code?
 
+fruits = ["apple", "banana", "cherry"]
+print(fruits[1])
+
+# OUTPUT:
+# banana
+
+# Q) What will be the output of the following code?
+
+numbers = [1, 2, 3, 4,]
+numbers[2]=10
+print(numbers)
+
+# OUTPUT:
+# [1, 2, 10, 4]
+
+# Q) What will be the output of the following code?
+
+colors = ["red", "blue"]
+colors.append("green")
+print(colors)
+
+# OUTPUT:
+# ['red', 'blue', 'green']
+
+# Q) What will be the output of the following code?
+
+nums = [10, 20, 30, 40, 50]
+print(nums[1:4])
+
+# OUTPUT:
+# [20, 30, 40]
+
+# Q) What will be the output of the following code?
+
+names = ["Alice", "Bob", "Charlie"]
+print("Alice" in names)
+
+# OUTPUT:
+# True
+
+# Q) What will be the output of the following code?
+
 my_list = [1, 2, 3, 4, 5]
 print(my_list[2])
 
