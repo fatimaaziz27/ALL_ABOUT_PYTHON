@@ -37,3 +37,15 @@ else:
 # lowercase match
 
 # Q4) What will be the output of the following code?
+
+fruit = ["apple", "banana", "cherry"]
+if "banana" in fruit:
+    print("banana is available")
+else:
+    print("banana is missing")
+
+# OUTPUT:
+# banana is available
+
+# Q5) What will be the output of the following code?
+
