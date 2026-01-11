@@ -13,3 +13,19 @@ else:
 # Adult
 
 # Q2) What will be the output of the following code?
+
+is_raining = False
+if not is_raining:
+    print("go outside")
+else:
+    print("stay inside")
+
+# OUTPUT:
+# go outside
+
+# Q3) What will be the output of the following code?
+
+word = "python"
+if word == "python":
+    print("lowercase match")
+    
