@@ -28,4 +28,12 @@ else:
 word = "python"
 if word == "python":
     print("lowercase match")
-    
+elif word.lower() == "python":
+    print("case insensitive match") 
+else:
+    print("no match")
+
+# OUTPUT:
+# lowercase match
+
+# Q4) What will be the output of the following code?
