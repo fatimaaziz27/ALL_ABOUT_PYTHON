@@ -49,3 +49,11 @@ else:
 
 # Q5) What will be the output of the following code?
 
+person = {"name": "Alice", "age": 30}
+if "age" in person:
+    print("age is present")
+else:
+    print("age is missing")
+
+# OUTPUT:
+# age is present
