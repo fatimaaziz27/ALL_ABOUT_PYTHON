@@ -64,3 +64,4 @@ balance = 500
 withdraw = 200
 if withdraw > 0:
     if withdraw <= balance:
+        print("withdrawal successful")
