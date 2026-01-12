@@ -67,3 +67,6 @@ if withdraw > 0:
         print("withdrawal successful")
         balance -= withdraw
     else:
+        print("insufficient funds")
+else:
+    print("invalid amount")
