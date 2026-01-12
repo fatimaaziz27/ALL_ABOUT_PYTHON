@@ -61,3 +61,5 @@ else:
 # Q6) What will be the output of the following code?
 
 balance = 500
+withdraw = 200
+if withdraw > 0:
