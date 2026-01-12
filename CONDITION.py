@@ -57,3 +57,6 @@ else:
 
 # OUTPUT:
 # age is present
+
+# Q6) What will be the output of the following code?
+
