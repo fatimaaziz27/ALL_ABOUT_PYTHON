@@ -29,3 +29,18 @@ print(type(t))
 # Q4) what will be the output of the following code?
 
 t = (1, 2, 3, 4, 5)
+print(t[::2])
+
+# OUTPUT:
+# (1, 3, 5)
+
+# Q5) what will be the output of the following code?
+
+t1 = (1, 2, 3)
+t2 = (4, 5, 6)
+t3 = t1 + t2
+print(t3)
+
+# OUTPUT:
+# (1, 2, 3, 4, 5, 6)
+
