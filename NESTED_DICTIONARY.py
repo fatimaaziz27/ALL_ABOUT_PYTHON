@@ -14,3 +14,12 @@ employees = { "jhon": {"position": "manager", "salary": 5000}, "doe": {"position
 employees["david"]={"position": "analyst", "salary": 3500}
 print(employees)
 
+# OUTPUT:
+# {'jhon': {'position': 'manager',
+#  'salary': 5000},
+# 'doe': {'position': 'developer',
+#  'salary': 4000},
+# 'david': {'position': 'analyst',
+#  'salary': 3500}}
+
+# Q3) what will be the output of the following code?
