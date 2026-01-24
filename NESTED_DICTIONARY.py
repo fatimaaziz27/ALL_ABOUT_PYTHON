@@ -9,3 +9,6 @@ print(student["alice"]["marks"])
 # 45
 
 # Q2) what will be the output of the following code?
+
+employees = { "jhon": {"position": "manager", "salary": 5000}, "doe": {"position": "developer", "salary": 4000} }
+employees["david"]["
