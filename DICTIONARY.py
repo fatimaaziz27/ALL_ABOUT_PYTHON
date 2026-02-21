@@ -52,8 +52,7 @@ car = {
     "brand":"toyota",
     "model":"camry"
 }
-
 print("model" in car)
 
 # OUTPUT:
-# {'name': 'bob', 'age': 28}
+# True
