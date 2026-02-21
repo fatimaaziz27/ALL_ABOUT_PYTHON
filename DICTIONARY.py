@@ -44,4 +44,16 @@ del info["year"]
 print(info)
 
 # OUTPUT:
-#
+# {'brand': 'ford'}
+
+# Q) What will be the output of the following code? 
+
+car = {
+    "brand":"toyota",
+    "model":"camry"
+}
+
+print("model" in car)
+
+# OUTPUT:
+# {'name': 'bob', 'age': 28}
