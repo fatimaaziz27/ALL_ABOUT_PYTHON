@@ -6,4 +6,14 @@ data = {
 }
 data["population"] = 8_000_000
 print(data)
+
 # OUTPUT:
+# {'city': 'new york', 'country': 'USA', 'population': 8000000}
+
+# Q) What will be the output of the following code? 
+
+person = {
+    "name":"alice",
+    "age":25
+}
+print(person["age"])
