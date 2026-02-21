@@ -31,4 +31,4 @@ person["age"] = 28
 print(person)
 
 # OUTPUT:
-# 25
+# {'name': 'bob', 'age': 28}
