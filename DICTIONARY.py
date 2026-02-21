@@ -17,3 +17,18 @@ person = {
     "age":25
 }
 print(person["age"])
+
+# OUTPUT:
+# 25
+
+# Q) What will be the output of the following code? 
+
+person = {
+    "name":"bob",
+    "age":50
+}
+person["age"] = 28
+print(person)
+
+# OUTPUT:
+# 25
