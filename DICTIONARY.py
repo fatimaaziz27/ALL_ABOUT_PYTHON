@@ -32,3 +32,16 @@ print(person)
 
 # OUTPUT:
 # {'name': 'bob', 'age': 28}
+
+
+# Q) What will be the output of the following code? 
+
+info = {
+    "brand":"ford",
+    "year":2020
+}
+del info["year"]
+print(info)
+
+# OUTPUT:
+#
