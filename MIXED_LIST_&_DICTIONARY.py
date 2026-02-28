@@ -17,3 +17,6 @@ products = [
 ]
 products[0]["price"]=750
 print(products)
+
+# OUTPUT:
+# [{'item': 'laptop', 'price': 750}, {'item': 'phone', 'price': 500}]
