@@ -52,3 +52,6 @@ classes = {
 }
 classes["math"].append("emma")
 print(classes)
+
+# OUTPUT:
+# {'math': ['alice', 'bob', 'emma'], 'science': ['charlie', 'david']}
