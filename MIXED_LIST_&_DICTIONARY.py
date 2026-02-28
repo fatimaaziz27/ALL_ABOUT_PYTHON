@@ -29,3 +29,6 @@ books = [
 ]
 books.append({"title":"the hobbit","author":"j.r.r. tolkien"})
 print(books)
+
+# OUTPUT:
+# [{'title': 'harry potter', 'author': 'j.k. rowling'}, {'title': '1984', 'author': 'george orwell'}, {'title': 'the hobbit', 'author': 'j.r.r. tolkien'}]
