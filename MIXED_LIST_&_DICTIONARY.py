@@ -42,3 +42,7 @@ classes = {
 print(classes["science"])
 
 # OUTPUT:
+# ['charlie', 'david']
+
+# Q) What will be the output of the following code?
+
