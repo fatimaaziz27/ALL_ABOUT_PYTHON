@@ -46,3 +46,9 @@ print(classes["science"])
 
 # Q) What will be the output of the following code?
 
+classes = {
+    "math":["alice","bob"],
+    "science":["charlie","david"]
+}
+classes["math"].append("emma")
+print(classes)
