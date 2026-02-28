@@ -8,8 +8,8 @@ print(matrix[1][2])
 
 # Q1) What will be the output of the following code?
 
-# names = [["Alice","bob","charlie"],["david","eve","frank"],["grace","hank","ivy"]]
-# print(names[1][2])
+names = [["Alice","bob","charlie"],["david","eve","frank"],["grace","hank","ivy"]]
+print(names[1][2])
 
 # OUTPUT:
 # frank
@@ -18,4 +18,7 @@ print(matrix[1][2])
 
 names = [["john","jane","jim"],["tom","tim","tina"],["sarah","sam","sophie"]]
 print(names[2])
+
+# OUTPUT:
+# ['sarah', 'sam', 'sophie']
 
