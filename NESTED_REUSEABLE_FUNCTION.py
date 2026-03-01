@@ -5,6 +5,7 @@ def is_even(num):
 print(is_even(4))
 
 # OUTPUT:
+# True
 
 
 # Q) What will be the output of the following code?
