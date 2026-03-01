@@ -36,3 +36,4 @@ def convert_temperature(value,scale="c"):
 print(convert_temperature(0,"c"))
 
 # OUTPUT:
+# 32.0
