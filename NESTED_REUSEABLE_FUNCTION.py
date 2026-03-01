@@ -23,3 +23,5 @@ def square(n):
 print(square(3))
 
 # OUTPUT:
+# 9
+
