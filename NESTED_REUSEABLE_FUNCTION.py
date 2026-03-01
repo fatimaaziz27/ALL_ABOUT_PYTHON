@@ -13,4 +13,13 @@ def reverse_string(s):
     return s[::-1]
 print(reverse_string("hello"))
 
+# OUTPUT:
+# olleh
+
 # Q) What will be the output of the following code?
+
+def square(n):
+    return n*n
+print(square(3))
+
+# OUTPUT:
