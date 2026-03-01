@@ -25,3 +25,14 @@ print(square(3))
 # OUTPUT:
 # 9
 
+# Q) What will be the output of the following code?
+
+def convert_temperature(value,scale="c"):
+    if scale == "c":
+        return (value * 9/5) + 32     # convert to fahrenheit
+    else:
+        return (value - 32) * 5/9      # convert to celsius
+
+print(convert_temperature(0,"c"))
+
+# OUTPUT:
