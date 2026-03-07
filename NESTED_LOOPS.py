@@ -55,3 +55,12 @@ for i in range(1,4):
 # 3 x 4 = 12
 
 # 3 x 5 = 15
+
+# Q) What will be the output of the following code?
+
+names = [["aina","yusra"],["samiya","amna"]]
+for group in names:
+    for name in group:
+        print(name)
+
+# OUTPUT:
