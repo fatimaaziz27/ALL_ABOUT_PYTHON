@@ -64,3 +64,18 @@ for group in names:
         print(name)
 
 # OUTPUT:
+# aina
+# yusra
+# samiya
+# amna
+
+# Q) What will be the output of the following code?
+
+words = ["hi","hello","world"]
+vowels = "aeiou"
+for word in words:
+    count = 0
+    for char in word:
+        if char in vowels:
+            count += 1
+            print(f"{word}:{count}")
