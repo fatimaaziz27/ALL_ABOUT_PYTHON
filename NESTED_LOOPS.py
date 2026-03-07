@@ -92,7 +92,19 @@ i = 1
 while i <= 3:
     j=1
     while j<=5:
-        print(f"{i}x{j}={i*j}")
+        print(f"{i} x {j} = {i*j}")
         j += 1
         print()
         i += 1
+
+
+# OUTPUT:
+# 1x1=1
+
+# 2x2=4
+
+# 3x3=9
+
+# 4x4=16
+
+# 5x5=25
