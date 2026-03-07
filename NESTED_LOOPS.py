@@ -79,3 +79,20 @@ for word in words:
         if char in vowels:
             count += 1
             print(f"{word}:{count}")
+
+# OUTPUT:
+# hi:1
+# hello:1
+# hello:2
+# world:1
+
+# Q) What will be the output of the following code?
+
+i = 1
+while i <= 3:
+    j=1
+    while j<=5:
+        print(f"{i}x{j}={i*j}")
+        j += 1
+        print()
+        i += 1
