@@ -69,9 +69,8 @@ def find_key_by_value(d, value):
 
 print(find_key_by_value({"x": 10, "y": 20, "z": 30}, 20))
 
-Output:
-
-y
+# OUTPUT:
+# y
 
 # Q) What will be the output of the following code?
 
