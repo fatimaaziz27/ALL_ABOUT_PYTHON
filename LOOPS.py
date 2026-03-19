@@ -76,11 +76,8 @@ Output:
 
 y
 
-Explanation:
+# Q) What will be the output of the following code?
 
-Value 20 belongs to key "y"
-
-✅ Q7
 def greet(name):
     def message():
         return f"Hello, {name}!"
