@@ -81,5 +81,5 @@ def greet(name):
 
 print(greet("Alice"))
 
-Output:
-Hello, Alice!
+# OUTPUT:
+# Hello, Alice!
