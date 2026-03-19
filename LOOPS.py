@@ -22,9 +22,8 @@ def square(num):
 
 print(square(3))
 
-Output:
-
-9
+# OUTPUT:
+# 9
 
 # Q) What will be the output of the following code?
 
@@ -33,8 +32,8 @@ def sum_numbers(*args):
 
 print(sum_numbers(1, 2, 3, 4, 5))
 
-Output:
-15
+# OUTPUT:
+# 15
 
 # Q) What will be the output of the following code?
 
@@ -43,9 +42,8 @@ def reverse_list(lst):
 
 print(reverse_list([1, 2, 3, 4, 5]))
 
-Output:
-
-[5, 4, 3, 2, 1]
+# OUTPUT:
+# [5, 4, 3, 2, 1]
 
 # Q) What will be the output of the following code?
 
@@ -86,9 +84,4 @@ def greet(name):
 print(greet("Alice"))
 
 Output:
-
 Hello, Alice!
-
-Explanation:
-
-Inner function returns greeting with name
