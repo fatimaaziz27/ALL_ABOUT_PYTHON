@@ -12,6 +12,7 @@ print(power(2, 3))
 # 9
 # 8
 
+# Q) What will be the output of the following code?
 
 def multiply(a, b):
     return a * b
@@ -25,11 +26,8 @@ Output:
 
 9
 
-Explanation:
+# Q) What will be the output of the following code?
 
-square(3) → multiply(3, 3) → 3 × 3 = 9
-
-✅ Q3
 def sum_numbers(*args):
     return sum(args)
 
