@@ -34,14 +34,10 @@ def sum_numbers(*args):
 print(sum_numbers(1, 2, 3, 4, 5))
 
 Output:
-
 15
 
-Explanation:
+# Q) What will be the output of the following code?
 
-Adds all numbers → 1+2+3+4+5 = 15
-
-✅ Q4
 def reverse_list(lst):
     return lst[::-1]
 
@@ -51,11 +47,8 @@ Output:
 
 [5, 4, 3, 2, 1]
 
-Explanation:
+# Q) What will be the output of the following code?
 
-[::-1] reverses the list
-
-✅ Q5
 def count_evens(lst):
     count = 0
     for num in lst:
@@ -69,11 +62,8 @@ Output:
 
 3
 
-Explanation:
+# Q) What will be the output of the following code?
 
-Even numbers: 2, 4, 6 → total = 3
-
-✅ Q6
 def find_key_by_value(d, value):
     for key, val in d.items():
         if val == value:
