@@ -56,9 +56,8 @@ def count_evens(lst):
 
 print(count_evens([1, 2, 3, 4, 5, 6]))
 
-Output:
-
-3
+# OUTPUT:
+# 3
 
 # Q) What will be the output of the following code?
 
