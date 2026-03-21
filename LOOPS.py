@@ -1,5 +1,4 @@
 #                 LOOPS:
-
 # Q) What will be the output of the following code?
 
 def power(base, exponent=2):
