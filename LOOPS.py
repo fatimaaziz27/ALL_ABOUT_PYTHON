@@ -33,3 +33,13 @@ Output:
 3
 2
 1
+
+Q5
+
+total = 0
+for i in range(1, 11):
+    total += i
+print(total)
+
+Output:
+55
