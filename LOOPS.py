@@ -65,3 +65,16 @@ Output:
 1
 3
 5
+
+Q8
+numbers = [5, 9, 2, 8, 1]
+max_num = numbers[0]
+
+for num in numbers:
+    if num > max_num:
+        max_num = num
+
+print(max_num)
+
+Output:
+9
