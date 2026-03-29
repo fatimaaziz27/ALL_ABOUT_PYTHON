@@ -78,3 +78,16 @@ print(max_num)
 
 Output:
 9
+
+Q9
+t = (1, 2, 3, 2, 2, 4, 5)
+count = 0
+
+for num in t:
+    if num == 2:
+        count += 1
+
+print(count)
+
+Output:
+3
