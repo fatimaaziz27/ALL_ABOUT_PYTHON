@@ -99,7 +99,6 @@ for key in person:
     print(key)
 
 Output:
-
 name
 age
 city
