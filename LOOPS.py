@@ -103,7 +103,7 @@ name
 age
 city
 
-
+Q11
 student = {"name": "Bob", "grade": "A", "subject": "Math"}
 
 for value in student.values():
