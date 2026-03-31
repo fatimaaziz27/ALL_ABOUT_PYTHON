@@ -102,3 +102,14 @@ Output:
 name
 age
 city
+
+
+student = {"name": "Bob", "grade": "A", "subject": "Math"}
+
+for value in student.values():
+    print(value)
+
+Output:
+Bob
+A
+Math
