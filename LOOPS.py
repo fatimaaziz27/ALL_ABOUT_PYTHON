@@ -115,13 +115,17 @@ A
 Math
 
 Q12
-student = {"name": "Bob", "grade": "A", "subject": "Math"}
+car = {"brand": "Toyota", "model": "Camry", "year": 2022}
+key_to_find = "year"
+found = False
 
-for value in student.values():
-    print(value)
+for key in car:
+    if key == key_to_find:
+        found = True
+        break
+
+print(found)
 
 Output:
-Bob
-A
-Math
 
+True
