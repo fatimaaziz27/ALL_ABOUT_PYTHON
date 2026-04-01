@@ -1,4 +1,4 @@
-6#                 LOOPS:
+#                 LOOPS:
 Q1
 for i in range(1, 6):
     print(i)
@@ -113,3 +113,15 @@ Output:
 Bob
 A
 Math
+
+Q12
+student = {"name": "Bob", "grade": "A", "subject": "Math"}
+
+for value in student.values():
+    print(value)
+
+Output:
+Bob
+A
+Math
+
