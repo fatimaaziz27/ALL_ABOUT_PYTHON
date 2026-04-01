@@ -127,5 +127,4 @@ for key in car:
 print(found)
 
 Output:
-
 True
