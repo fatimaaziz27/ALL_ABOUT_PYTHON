@@ -10,11 +10,11 @@ for i in range(1, 6):
 # 4
 # 5
 
-Q2
+# Q2
 for i in range(2, 11, 2):
     print(i)
 
-Output:
+# Output:
 2
 4
 6
