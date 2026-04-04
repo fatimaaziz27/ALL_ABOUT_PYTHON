@@ -15,11 +15,11 @@ for i in range(2, 11, 2):
     print(i)
 
 # Output:
-2
-4
-6
-8
-10
+# 2
+# 4
+# 6
+# 8
+# 10
 
 Q4
 num = 5
