@@ -27,12 +27,12 @@ while num > 0:
     print(num)
     num -= 1
 
-Output:
-5
-4
-3
-2
-1
+# Output:
+# 5
+# 4
+# 3
+# 2
+# 1
 
 Q5
 total = 0
