@@ -55,16 +55,16 @@ for i in range(1, 10):
 # 3
 # 4
 
-Q7
+# Q7
 for i in range(1, 6):
     if i % 2 == 0:
         continue
     print(i)
 
-Output:
-1
-3
-5
+# Output:
+# 1
+# 3
+# 5
 
 Q8
 numbers = [5, 9, 2, 8, 1]
