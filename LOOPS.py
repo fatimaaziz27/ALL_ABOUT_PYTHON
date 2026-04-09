@@ -66,7 +66,7 @@ for i in range(1, 6):
 # 3
 # 5
 
-Q8
+# Q8
 numbers = [5, 9, 2, 8, 1]
 max_num = numbers[0]
 
@@ -76,8 +76,8 @@ for num in numbers:
 
 print(max_num)
 
-Output:
-9
+# Output:
+# 9
 
 Q9
 t = (1, 2, 3, 2, 2, 4, 5)
