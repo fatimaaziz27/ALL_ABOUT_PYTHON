@@ -79,7 +79,7 @@ print(max_num)
 # Output:
 # 9
 
-Q9
+# Q9
 t = (1, 2, 3, 2, 2, 4, 5)
 count = 0
 
@@ -89,8 +89,8 @@ for num in t:
 
 print(count)
 
-Output:
-3
+# Output:
+# 3
 
 Q10
 person = {"name": "Alice", "age": 25, "city": "New York"}
