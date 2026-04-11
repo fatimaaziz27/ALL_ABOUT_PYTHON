@@ -92,16 +92,16 @@ print(count)
 # Output:
 # 3
 
-Q10
+# Q10
 person = {"name": "Alice", "age": 25, "city": "New York"}
 
 for key in person:
     print(key)
 
-Output:
-name
-age
-city
+# Output:
+# name
+# age
+# city
 
 Q11
 student = {"name": "Bob", "grade": "A", "subject": "Math"}
