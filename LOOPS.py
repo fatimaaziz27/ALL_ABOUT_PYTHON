@@ -103,16 +103,16 @@ for key in person:
 # age
 # city
 
-Q11
+# Q11
 student = {"name": "Bob", "grade": "A", "subject": "Math"}
 
 for value in student.values():
     print(value)
 
-Output:
-Bob
-A
-Math
+# Output:
+# Bob
+# A
+# Math
 
 Q12
 car = {"brand": "Toyota", "model": "Camry", "year": 2022}
