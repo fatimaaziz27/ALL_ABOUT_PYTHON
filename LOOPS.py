@@ -1,5 +1,7 @@
 #                 LOOPS:
-# Q1
+
+# Q) What will be the output of the following code?
+
 for i in range(1, 6):
     print(i)
 
