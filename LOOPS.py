@@ -24,7 +24,8 @@ for i in range(2, 11, 2):
 # 8
 # 10
 
-# Q4
+# Q) What will be the output of the following code?
+
 num = 5
 while num > 0:
     print(num)
