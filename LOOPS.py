@@ -87,7 +87,8 @@ print(max_num)
 # Output:
 # 9
 
-# Q9
+# Q) What will be the output of the following code?
+
 t = (1, 2, 3, 2, 2, 4, 5)
 count = 0
 
@@ -100,7 +101,8 @@ print(count)
 # Output:
 # 3
 
-# Q10
+# Q) What will be the output of the following code?
+
 person = {"name": "Alice", "age": 25, "city": "New York"}
 
 for key in person:
