@@ -61,7 +61,8 @@ for i in range(1, 10):
 # 3
 # 4
 
-# Q7
+# Q) What will be the output of the following code?
+
 for i in range(1, 6):
     if i % 2 == 0:
         continue
@@ -72,7 +73,8 @@ for i in range(1, 6):
 # 3
 # 5
 
-# Q8
+# Q) What will be the output of the following code?
+
 numbers = [5, 9, 2, 8, 1]
 max_num = numbers[0]
 
