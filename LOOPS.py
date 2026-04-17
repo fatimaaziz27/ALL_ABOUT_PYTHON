@@ -113,7 +113,8 @@ for key in person:
 # age
 # city
 
-# Q11
+# Q) What will be the output of the following code?
+
 student = {"name": "Bob", "grade": "A", "subject": "Math"}
 
 for value in student.values():
@@ -124,7 +125,8 @@ for value in student.values():
 # A
 # Math
 
-# Q12
+# Q) What will be the output of the following code?
+
 car = {"brand": "Toyota", "model": "Camry", "year": 2022}
 key_to_find = "year"
 found = False
