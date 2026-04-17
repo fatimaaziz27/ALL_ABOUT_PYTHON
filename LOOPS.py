@@ -38,7 +38,8 @@ while num > 0:
 # 2
 # 1
 
-# Q5
+# Q) What will be the output of the following code?
+
 total = 0
 for i in range(1, 11):
     total += i
@@ -47,7 +48,8 @@ print(total)
 # Output:
 # 55
 
-# Q6
+# Q) What will be the output of the following code?
+
 for i in range(1, 10):
     if i == 5:
         break
