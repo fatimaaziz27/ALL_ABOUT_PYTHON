@@ -1,21 +1,5 @@
 # Best practice questions:
 
-# Q) Keep asking user for password until it matches `"secure123"`. 
-
-# CODE:
-
-password = input("Enter password: ")
-while password != "secure123":
-    print("Incorrect password. Try again.")
-    password = input("Enter password: ")
-print("Password correct. Access granted.")
-
-# OUTPUT:
-
-# Enter password: yhdh
-# Incorrect password. Try again.
-# Enter password: secure123
-# Password correct. Access granted.
 
 # Q) ATM PIN check with max 3 attempts. 
 
