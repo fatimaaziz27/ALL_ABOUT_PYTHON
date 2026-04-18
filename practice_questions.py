@@ -1,35 +1,4 @@
 # Best practice questions:
-
-
-
-# Q) While loop to collect student marks until “done” entered. 
-
-# CODE:
-
-student_marks=[]
-student_name=[]
-while True:
-    marks=(input("enter student marks: "))
-    if marks =="done":
-        break
-    student_marks.append(marks)
-    names=(input("enter student name: "))
-    student_name.append(names)
-print(student_marks)
-print(student_name)
-
-# OUTPUT:
-
-# enter student marks: 97
-# enter student name: yusra
-# enter student marks: 79
-# enter student name: asfiya
-# enter student marks: 94
-# enter student name: zainab
-# enter student marks: done
-# ['97', '79', '94']
-# ['yusra', 'asfiya', 'zainab']
-
 # Q) Keep looping until internet connection = True. 
 
 # CODE:
