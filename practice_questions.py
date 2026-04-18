@@ -1,19 +1,4 @@
 # Best practice questions:
-# Q) Print all words from a sentence in reverse order.
-
-# CODE:
-
-sentence = "SENTENCE THIS SPLIT I"
-words = sentence.split()
-words.reverse()
-for word in words:
-    print(word)
-
-# OUTPUT:
-# I
-# SPLIT
-# THIS
-# SENTENCE
 
 # Q) Keep asking user for password until it matches `"secure123"`. 
 
