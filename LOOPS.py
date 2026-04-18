@@ -77,11 +77,9 @@ for i in range(1, 6):
 
 numbers = [5, 9, 2, 8, 1]
 max_num = numbers[0]
-
 for num in numbers:
     if num > max_num:
         max_num = num
-
 print(max_num)
 
 # Output:
@@ -91,11 +89,9 @@ print(max_num)
 
 t = (1, 2, 3, 2, 2, 4, 5)
 count = 0
-
 for num in t:
     if num == 2:
         count += 1
-
 print(count)
 
 # Output:
@@ -104,7 +100,6 @@ print(count)
 # Q) What will be the output of the following code?
 
 person = {"name": "Alice", "age": 25, "city": "New York"}
-
 for key in person:
     print(key)
 
@@ -116,7 +111,6 @@ for key in person:
 # Q) What will be the output of the following code?
 
 student = {"name": "Bob", "grade": "A", "subject": "Math"}
-
 for value in student.values():
     print(value)
 
@@ -130,12 +124,10 @@ for value in student.values():
 car = {"brand": "Toyota", "model": "Camry", "year": 2022}
 key_to_find = "year"
 found = False
-
 for key in car:
     if key == key_to_find:
         found = True
         break
-
 print(found)
 
 # Output:
@@ -143,19 +135,17 @@ print(found)
 
 # Q) Loop through an email list and print only those ending with `@gmail.com`. 
 
-# CODE:
-
 emails = ["ME@example.com","123@gmail.com","MINE@yahoo.com","GHJ@gmail.com","NONE@hotmail.com"]
 for email in emails:
     if email[-10:] == "@gmail.com":
         print(email)
 
 # OUTPUT:
-
 # 123@gmail.com
 # GHJ@gmail.com
 
 # Q) Print all words from a sentence in reverse order.
+
 sentence = "SENTENCE THIS SPLIT I"
 words = sentence.split()
 words.reverse()
@@ -170,8 +160,6 @@ for word in words:
 
 # Q) Keep asking user for password until it matches `"secure123"`. 
 
-# CODE:
-
 password = input("Enter password: ")
 while password != "secure123":
     print("Incorrect password. Try again.")
@@ -179,8 +167,30 @@ while password != "secure123":
 print("Password correct. Access granted.")
 
 # OUTPUT:
-
 # Enter password: yhdh
 # Incorrect password. Try again.
 # Enter password: secure123
 # Password correct. Access granted.
+
+# Q) ATM PIN check with max 3 attempts. 
+
+pin = "123"
+attempts = 0
+while attempts < 3:
+    user_pin = input("Enter 3-digit PIN: ")
+    if len(user_pin) != 3 or not user_pin.isdigit():
+        print("The PIN should contain exactly 3 digits.")
+    elif user_pin == pin:
+        print("PIN correct. Access granted.")
+        break
+        attempts += 1
+else:
+    print("Maximum attempts exceeded. Account locked.")
+
+# OUTPUT:
+# Enter PIN: fff
+# Incorrect PIN. 2 attempts left.
+# Enter PIN: ggg
+# Incorrect PIN. 1 attempts left.
+# Enter PIN: 123
+# Access granted.
