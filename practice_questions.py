@@ -1,31 +1,6 @@
 # Best practice questions:
 
 
-# Q) ATM PIN check with max 3 attempts. 
-
-# CODE:
-
-pin = "123"
-attempts = 0
-while attempts < 3:
-    user_pin = input("Enter 3-digit PIN: ")
-    if len(user_pin) != 3 or not user_pin.isdigit():
-        print("The PIN should contain exactly 3 digits.")
-    elif user_pin == pin:
-        print("PIN correct. Access granted.")
-        break
-        attempts += 1
-else:
-    print("Maximum attempts exceeded. Account locked.")
-
-# OUTPUT:
-
-# Enter PIN: fff
-# Incorrect PIN. 2 attempts left.
-# Enter PIN: ggg
-# Incorrect PIN. 1 attempts left.
-# Enter PIN: 123
-# Access granted.
 
 # Q) While loop to collect student marks until “done” entered. 
 
