@@ -140,3 +140,18 @@ print(found)
 
 # Output:
 # True
+
+# Q) Loop through an email list and print only those ending with `@gmail.com`. 
+
+# CODE:
+
+emails = ["ME@example.com","123@gmail.com","MINE@yahoo.com","GHJ@gmail.com","NONE@hotmail.com"]
+for email in emails:
+    if email[-10:] == "@gmail.com":
+        print(email)
+
+# OUTPUT:
+
+# 123@gmail.com
+# GHJ@gmail.com
+
