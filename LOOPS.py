@@ -155,3 +155,16 @@ for email in emails:
 # 123@gmail.com
 # GHJ@gmail.com
 
+# Q) Print all words from a sentence in reverse order.
+sentence = "SENTENCE THIS SPLIT I"
+words = sentence.split()
+words.reverse()
+for word in words:
+    print(word)
+
+# OUTPUT:
+# I
+# SPLIT
+# THIS
+# SENTENCE
+
