@@ -251,3 +251,25 @@ while True:
 # do you have any question?  2 question
 # do you have any question?  3 question
 # do you have any question?  Bye 
+
+# Q) Print seating chart for bus (Rows 1–3, Seats A–D).
+
+rows= range(1, 4)
+seats = ['A', 'B','C','D']
+for row in rows:
+    for seat in seats:
+        print(f"{row}{seat}")
+
+# OUTPUT:
+# 1A
+# 1B
+# 1C
+# 1D
+# 2A
+# 2B
+# 2C
+# 2D
+# 3A
+# 3B
+# 3C
+# 3D
