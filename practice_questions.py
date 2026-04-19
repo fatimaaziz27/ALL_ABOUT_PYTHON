@@ -1,14 +1,5 @@
 # Best practice questions:
 
-
-
-
-
-
-
-
-
-
 # Q) Function to count how many `.pdf` files are in a list. 
 
 # CODE:
