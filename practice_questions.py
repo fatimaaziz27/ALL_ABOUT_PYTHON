@@ -1,25 +1,5 @@
 # Best practice questions:
-# Q) Keep looping until internet connection = True. 
 
-# CODE:
-
-while True:
-    checking_connection=(input("do you have internet connection?  "))
-    if checking_connection=="true":
-        print("you are connected")
-    if checking_connection=="false":
-        print("check your connection")
-        break
-
-# OUTPUT:
-
-# do you have internet connection?  tghfgh
-# do you have internet connection?  true
-# you are connected
-# do you have internet connection?  true
-# you are connected
-# do you have internet connection?  false
-# check your connection
 
 # Q) While loop for chatbot (keep asking until user types “bye”). 
 
