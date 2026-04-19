@@ -238,3 +238,16 @@ while True:
 # you are connected
 # do you have internet connection?  false
 # check your connection
+
+# Q) While loop for chatbot (keep asking until user types “bye”). 
+
+while True:
+    chat=(input("do you have any question?  "))
+    if chat=="bye":
+        break
+
+# OUTPUT:
+# do you have any question?  some question
+# do you have any question?  2 question
+# do you have any question?  3 question
+# do you have any question?  Bye 
