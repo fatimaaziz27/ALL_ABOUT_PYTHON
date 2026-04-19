@@ -1,21 +1,7 @@
 # Best practice questions:
 
 
-# Q) While loop for chatbot (keep asking until user types “bye”). 
 
-# CODE:
-
-while True:
-    chat=(input("do you have any question?  "))
-    if chat=="bye":
-        break
-
-# OUTPUT:
-
-# do you have any question?  some question
-# do you have any question?  2 question
-# do you have any question?  3 question
-# do you have any question?  Bye 
 
 # Q) Print seating chart for bus (Rows 1–3, Seats A–D).
 
