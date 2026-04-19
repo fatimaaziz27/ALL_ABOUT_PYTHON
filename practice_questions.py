@@ -5,23 +5,7 @@
 
 
 
-# Q) Nested loop to find all team pairs from player list. 
 
-# CODE:
-
-players = ['Player1', 'Player2', 'Player3', 'Player4']
-for i in range(len(players)):
-    for j in range(i + 1, len(players)):
-        print(f"Team: {players[i]} vs {players[j]}")
-
-# OUTPUT:
-
-# Team: Player1 vs Player2
-# Team: Player1 vs Player3
-# Team: Player1 vs Player4
-# Team: Player2 vs Player3
-# Team: Player2 vs Player4
-# Team: Player3 vs Player4
 
 # Q) Generate full multiplication tables from 2–5. 
 
