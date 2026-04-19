@@ -3,30 +3,7 @@
 
 
 
-# Q) Print seating chart for bus (Rows 1–3, Seats A–D).
 
-# CODE:
-
-rows= range(1, 4)
-seats = ['A', 'B','C','D']
-for row in rows:
-    for seat in seats:
-        print(f"{row}{seat}")
-
-# OUTPUT:
-
-# 1A
-# 1B
-# 1C
-# 1D
-# 2A
-# 2B
-# 2C
-# 2D
-# 3A
-# 3B
-# 3C
-# 3D
 
 # Q) Nested loop to find all team pairs from player list. 
 
