@@ -219,3 +219,22 @@ print(student_name)
 # enter student marks: done
 # ['97', '79', '94']
 # ['yusra', 'asfiya', 'zainab']
+
+# Q) Keep looping until internet connection = True. 
+
+while True:
+    checking_connection=(input("do you have internet connection?  "))
+    if checking_connection=="true":
+        print("you are connected")
+    if checking_connection=="false":
+        print("check your connection")
+        break
+
+# OUTPUT:
+# do you have internet connection?  tghfgh
+# do you have internet connection?  true
+# you are connected
+# do you have internet connection?  true
+# you are connected
+# do you have internet connection?  false
+# check your connection
