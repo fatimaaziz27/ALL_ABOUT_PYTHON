@@ -148,22 +148,7 @@ while True:
 # Enter product name (or 'quit' to stop): quit
 
 
-# Q) Flatten a nested list using loop. 
 
-# ANSWER:
-
-def flatten(nested_lst):
-    flat_lst = []
-    for sublist in nested_lst:
-        for item in sublist:
-            flat_lst.append(item)
-    return flat_lst
-nested_lst = [[1, 2], [3, 4], [5, 6]]
-print(flatten(nested_lst)) 
-
-# OUTPUT:
-
-# [1, 2, 3, 4, 5, 6]
 
 # Q) Count number of urgent messages in chat logs. 
 
