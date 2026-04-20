@@ -443,7 +443,6 @@ def remove_duplicates(lst):
         if i not in new_lst:
             new_lst.append(i)
     return new_lst
-
 lst = [1, 2, 2, 3, 4, 4, 5, 6, 6]
 print(remove_duplicates(lst))  # [1, 2, 3, 4, 5, 6]
 
@@ -472,7 +471,6 @@ chat_logs = [
     {'message': 'How are you?', 'urgent': False},
     {'message': 'Emergency!', 'urgent': True}
 ]
-
 urgent_count = 0
 for log in chat_logs:
     if log['urgent']:
@@ -481,3 +479,20 @@ print(urgent_count)
 
 # OUTPUT:
 # 2
+
+# 53. Loop to show only Pakistani contacts (+92). 
+
+contacts = [
+    {'name': 'John', 'phone': '+1234567890'},
+    {'name': 'Ali', 'phone': '+923123456789'},
+    {'name': 'Jane', 'phone': '+9876543210'},
+    {'name': 'Ahmad', 'phone': '+923987654321'}
+]
+pakistani_contacts = []
+for contact in contacts:
+    if contact['phone'].startswith('+92'):
+        pakistani_contacts.append(contact)
+print(pakistani_contacts)
+
+# OUTPUT:
+#[{'name': 'Ali', 'phone': '+923123456789'}, {'name': 'Ahmad', 'phone': '+923987654321'}]
