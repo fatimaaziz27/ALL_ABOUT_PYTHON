@@ -147,31 +147,6 @@ while True:
 # Sorry, Peach is not available or not for sale.
 # Enter product name (or 'quit' to stop): quit
 
-
-
-
-
-# 53. Loop to show only Pakistani contacts (+92). 
-
-# ANSWER:
-
-contacts = [
-    {'name': 'John', 'phone': '+1234567890'},
-    {'name': 'Ali', 'phone': '+923123456789'},
-    {'name': 'Jane', 'phone': '+9876543210'},
-    {'name': 'Ahmad', 'phone': '+923987654321'}
-]
-
-pakistani_contacts = []
-for contact in contacts:
-    if contact['phone'].startswith('+92'):
-        pakistani_contacts.append(contact)
-print(pakistani_contacts)
-
-# OUTPUT:
-
-#[{'name': 'Ali', 'phone': '+923123456789'}, {'name': 'Ahmad', 'phone': '+923987654321'}]
-
 # 54. Simulate inventory reduction when order placed. 
 
 # ANSWER:
