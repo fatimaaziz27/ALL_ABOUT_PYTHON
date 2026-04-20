@@ -150,25 +150,6 @@ while True:
 
 
 
-# Q) Count number of urgent messages in chat logs. 
-
-# ANSWER:
-
-chat_logs = [
-    {'message': 'Hello', 'urgent': False},
-    {'message': 'Help!', 'urgent': True},
-    {'message': 'How are you?', 'urgent': False},
-    {'message': 'Emergency!', 'urgent': True}
-]
-
-urgent_count = 0
-for log in chat_logs:
-    if log['urgent']:
-        urgent_count += 1
-print(urgent_count) 
-
-# OUTPUT:
-# 2
 
 # 53. Loop to show only Pakistani contacts (+92). 
 
