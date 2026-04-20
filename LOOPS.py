@@ -434,3 +434,18 @@ loop()
 # i: 1, j: 0, k: 2
 # i: 1, j: 1, k: 0
 # i: 1, j: 1, k: 1
+
+# Q) Remove duplicates from list manually (without set).
+
+def remove_duplicates(lst):
+    new_lst = []
+    for i in lst:
+        if i not in new_lst:
+            new_lst.append(i)
+    return new_lst
+
+lst = [1, 2, 2, 3, 4, 4, 5, 6, 6]
+print(remove_duplicates(lst))  # [1, 2, 3, 4, 5, 6]
+
+# OUTPUT:
+# [1, 2, 3, 4, 5, 6]
