@@ -353,3 +353,84 @@ while i <= 5:
 # 5 x 9 = 45
 # 5 x 10 = 50
 
+# 58. How to break out of multiple nested loops in Python?
+
+# Method 1: Using exceptions
+try:
+    for i in range(3):
+        for j in range(3):
+            for k in range(3):
+                print(f"i: {i}, j: {j}, k: {k}")
+                if i == 1 and j == 1 and k == 1:
+                    raise StopIteration
+except StopIteration:
+    print("Loop broken")
+
+# Method 2: Using flags
+break_loop = False
+for i in range(3):
+    for j in range(3):
+        for k in range(3):
+            print(f"i: {i}, j: {j}, k: {k}")
+            if i == 1 and j == 1 and k == 1:
+                break_loop = True
+                break
+        if break_loop:
+            break
+    if break_loop:
+        break
+
+# Method 3: Using a function and return
+def loop():
+    for i in range(3):
+        for j in range(3):
+            for k in range(3):
+                print(f"i: {i}, j: {j}, k: {k}")
+                if i == 1 and j == 1 and k == 1:
+                    return
+loop()
+
+# OUTPUT:
+# i: 0, j: 0, k: 0
+# i: 0, j: 0, k: 1
+# i: 0, j: 0, k: 2
+# i: 0, j: 1, k: 0
+# i: 0, j: 1, k: 1
+# i: 0, j: 1, k: 2
+# i: 0, j: 2, k: 0
+# i: 0, j: 2, k: 1
+# i: 0, j: 2, k: 2
+# i: 1, j: 0, k: 0
+# i: 1, j: 0, k: 1
+# i: 1, j: 0, k: 2
+# i: 1, j: 1, k: 0
+# i: 1, j: 1, k: 1
+# Loop broken
+# i: 0, j: 0, k: 0
+# i: 0, j: 0, k: 1
+# i: 0, j: 0, k: 2
+# i: 0, j: 1, k: 0
+# i: 0, j: 1, k: 1
+# i: 0, j: 1, k: 2
+# i: 0, j: 2, k: 0
+# i: 0, j: 2, k: 1
+# i: 0, j: 2, k: 2
+# i: 1, j: 0, k: 0
+# i: 1, j: 0, k: 1
+# i: 1, j: 0, k: 2
+# i: 1, j: 1, k: 0
+# i: 1, j: 1, k: 1
+# i: 0, j: 0, k: 0
+# i: 0, j: 0, k: 1
+# i: 0, j: 0, k: 2
+# i: 0, j: 1, k: 0
+# i: 0, j: 1, k: 1
+# i: 0, j: 1, k: 2
+# i: 0, j: 2, k: 0
+# i: 0, j: 2, k: 1
+# i: 0, j: 2, k: 2
+# i: 1, j: 0, k: 0
+# i: 1, j: 0, k: 1
+# i: 1, j: 0, k: 2
+# i: 1, j: 1, k: 0
+# i: 1, j: 1, k: 1
