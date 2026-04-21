@@ -1,4 +1,3 @@
-# Best practice questions:
 
 """
 Basic inheritance?
