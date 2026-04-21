@@ -126,3 +126,21 @@ while True:
 # Enter product name (or 'quit' to stop): peach
 # Sorry, Peach is not available or not for sale.
 # Enter product name (or 'quit' to stop): quit
+
+# Q) Remove duplicate characters from string (no set).
+
+def remove_duplicates(s):
+    result = ""
+    for char in s:
+        if char not in result:
+            result += char
+    return result
+
+# Example usage:
+s = "Programming"
+print("Original string:", s)
+print("String without duplicates:", remove_duplicates(s))
+
+# OUTPUT:
+# Original string: Programming
+# String without duplicates: Progamin
