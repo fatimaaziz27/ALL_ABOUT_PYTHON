@@ -83,3 +83,17 @@ print(greet("Alice"))
 
 # OUTPUT:
 # Hello, Alice!
+
+# Q) Find first non-repeated character in string. 
+
+def first_non_repeated(s):
+    for char in s:
+        if s.count(char) == 1:
+            return char
+    return None
+# Example usage:
+s = "none"
+print("First non-repeated character:", first_non_repeated(s))
+
+# OUTPUT:
+# First non-repeated character: o
