@@ -147,26 +147,6 @@ while True:
 # Sorry, Peach is not available or not for sale.
 # Enter product name (or 'quit' to stop): quit
 
-
-
-# Interview Qs: 
-
-# 57. How do you iterate over both keys and values in dictionary?
-
-# ANSWER:
-
-my_dict = {'a': 1, 'b': 2, 'c': 3}
-for key, value in my_dict.items():
-    print(f"Key: {key}, Value: {value}")
-
-# OUTPUT:
-
-# Key: a, Value: 1
-# Key: b, Value: 2
-# Key: c, Value: 3
-
-
-
 # Q) Remove duplicate characters from string (no set).
 
 # ANSWER:
