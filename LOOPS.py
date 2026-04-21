@@ -547,3 +547,20 @@ for key, value in my_dict.items():
 # Key: a, Value: 1
 # Key: b, Value: 2
 # Key: c, Value: 3
+
+# Q) Compress string (`aaabb` → `a3b2`). 
+
+s = "aaabb"
+result = ""
+count = 1
+for i in range(1, len(s)):
+    if s[i] == s[i-1]:
+        count += 1
+    else:
+        result += s[i-1] + str(count)
+        count = 1
+result += s[-1] + str(count)
+print(result)
+
+# OUTPUT:
+# a3b2
