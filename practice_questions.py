@@ -103,12 +103,6 @@ print_area(square)
 # The area of the shape is: 78.53975
 # The area of the shape is: 16
 
-
-
-
-
-
-
 # Q) Rotate string left (`abc` → `bca`)
 
 # ANSWER:
