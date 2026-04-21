@@ -585,3 +585,13 @@ pdf__count()
 
 # OUTPUT:
 # 4
+
+# Q) Reverse words in sentence without slicing. 
+
+sentence = "Hello World"
+words = sentence.split()
+reversed_words = [word[::-1] for word in words]
+print(' '.join(reversed_words))
+
+# OUTPUT:
+# olleH dlroW
