@@ -147,21 +147,7 @@ while True:
 # Sorry, Peach is not available or not for sale.
 # Enter product name (or 'quit' to stop): quit
 
-# 54. Simulate inventory reduction when order placed. 
 
-# ANSWER:
-
-inventory = {'item1': 10, 'item2': 5, 'item3': 8}
-order = {'item1': 2, 'item2': 1}
-
-for item, quantity in order.items():
-    if item in inventory:
-        inventory[item] -= quantity
-print(inventory)
-
-# OUTPUT:
-
-#{'item1': 8, 'item2': 4, 'item3': 8}
 
 # 55. Loop through doctor profiles and print specialists only. 
 
