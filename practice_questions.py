@@ -149,24 +149,6 @@ while True:
 
 
 
-
-
-# 56. Loop through dictionary of courses per student. 
-
-# ANSWER:
-
-students_courses = { 'John': ['Math', 'Science', 'English'],
-    'Alice': ['History', 'Biology', 'Chemistry'],
-    'Bob': ['Physics', 'Computer Science', 'Math']}
-for student, courses in students_courses.items():
-    print(f'{student}: {", ".join(courses)}')
-
-# OUTPUT:
-
-# John: Math, Science, English
-# Alice: History, Biology, Chemistry
-# Bob: Physics, Computer Science, Math
-
 # Interview Qs: 
 
 # 57. How do you iterate over both keys and values in dictionary?
