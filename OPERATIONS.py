@@ -187,3 +187,16 @@ print("world" < "python")
 # False
 # True
 # False
+
+# Subtraction & Logical OR
+
+x = 20
+y = 8
+print("Subtraction:", x - y)
+print("Less:", x < y)
+print("Logical OR:", (x > 10 or y > 10))
+
+# OUTPUT:
+# Subtraction: 12
+# Less: False
+# Logical OR: True
