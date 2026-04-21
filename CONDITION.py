@@ -1,6 +1,6 @@
 # Q1) What will be the output of the following code?
 
-age=20
+age = 20
 if age >= 18:
     if age >= 65:
         print("senior citizen")
@@ -70,3 +70,14 @@ if withdraw > 0:
         print("insufficient funds")
 else:
     print("invalid amount")
+
+# Q) Validate password (min 8 chars, at least 1 digit). 
+
+password = "Password123"
+if len(password) >= 8 and any(c.isdigit() for c in password):
+    print("Valid")
+else:
+    print("Invalid")
+
+# OUTPUT:
+# Valid
