@@ -113,17 +113,6 @@ print(s[1:] + s[0])
 # OUTPUT:
 # bca
 
-# Q) Reverse words in sentence without slicing. 
 
-# ANSWER:
-
-sentence = "Hello World"
-words = sentence.split()
-reversed_words = [word[::-1] for word in words]
-print(' '.join(reversed_words))
-
-# OUTPUT:
-
-# olleH dlroW
 
 
