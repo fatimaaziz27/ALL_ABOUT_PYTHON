@@ -523,3 +523,16 @@ print(specialists)
 
 # OUTPUT:
 # [{'name': 'Dr. Smith', 'specialty': 'Cardiology'}, {'name': 'Dr. Lee', 'specialty': 'Neurology'}]
+
+# 56. Loop through dictionary of courses per student. 
+
+students_courses = { 'John': ['Math', 'Science', 'English'],
+    'Alice': ['History', 'Biology', 'Chemistry'],
+    'Bob': ['Physics', 'Computer Science', 'Math']}
+for student, courses in students_courses.items():
+    print(f'{student}: {", ".join(courses)}')
+
+# OUTPUT:
+# John: Math, Science, English
+# Alice: History, Biology, Chemistry
+# Bob: Physics, Computer Science, Math
