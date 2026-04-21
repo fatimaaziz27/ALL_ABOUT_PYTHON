@@ -574,3 +574,14 @@ print(f"Uppercase: {uppercase_count}, Lowercase: {lowercase_count}")
 
 # OUTPUT:
 # Uppercase: 2, Lowercase: 8
+
+# Q) Function to count how many `.pdf` files are in a list. 
+
+files = ['file1.pdf', 'file2.txt', 'file3.pdf', 'file4.docx','file5.pdf','file6.pdf']
+def pdf__count():
+    count = len([file for file in files if file.endswith('.pdf')])
+    print(count)
+pdf__count()
+
+# OUTPUT:
+# 4
