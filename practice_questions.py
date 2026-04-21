@@ -149,22 +149,7 @@ while True:
 
 
 
-# 55. Loop through doctor profiles and print specialists only. 
 
-# ANSWER:
-
-doctors = [ {'name': 'Dr. Smith', 'specialty': 'Cardiology'},
-    {'name': 'Dr. Johnson', 'specialty': 'General Practice'},
-    {'name': 'Dr. Lee', 'specialty': 'Neurology'}]
-specialists = []
-for doctor in doctors:
-    if doctor['specialty'] != 'General Practice':
-        specialists.append(doctor)
-print(specialists)
-
-# OUTPUT:
-
-# [{'name': 'Dr. Smith', 'specialty': 'Cardiology'}, {'name': 'Dr. Lee', 'specialty': 'Neurology'}]
 
 # 56. Loop through dictionary of courses per student. 
 
