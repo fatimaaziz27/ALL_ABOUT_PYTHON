@@ -564,3 +564,13 @@ print(result)
 
 # OUTPUT:
 # a3b2
+
+# Q) Count uppercase vs lowercase letters. 
+
+s = "Hello World"
+uppercase_count = sum(1 for c in s if c.isupper())
+lowercase_count = sum(1 for c in s if c.islower())
+print(f"Uppercase: {uppercase_count}, Lowercase: {lowercase_count}")
+
+# OUTPUT:
+# Uppercase: 2, Lowercase: 8
