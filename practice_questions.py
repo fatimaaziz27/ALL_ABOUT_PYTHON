@@ -126,17 +126,4 @@ print(' '.join(reversed_words))
 
 # olleH dlroW
 
-# Q) Validate password (min 8 chars, at least 1 digit). 
-
-# CODE:
-
-password = "Password123"
-if len(password) >= 8 and any(c.isdigit() for c in password):
-    print("Valid")
-else:
-    print("Invalid")
-
-# OUTPUT:
-
-# Valid
 
