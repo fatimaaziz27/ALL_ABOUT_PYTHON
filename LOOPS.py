@@ -509,3 +509,17 @@ print(inventory)
 
 # OUTPUT:
 #{'item1': 8, 'item2': 4, 'item3': 8}
+
+# 55. Loop through doctor profiles and print specialists only. 
+
+doctors = [ {'name': 'Dr. Smith', 'specialty': 'Cardiology'},
+    {'name': 'Dr. Johnson', 'specialty': 'General Practice'},
+    {'name': 'Dr. Lee', 'specialty': 'Neurology'}]
+specialists = []
+for doctor in doctors:
+    if doctor['specialty'] != 'General Practice':
+        specialists.append(doctor)
+print(specialists)
+
+# OUTPUT:
+# [{'name': 'Dr. Smith', 'specialty': 'Cardiology'}, {'name': 'Dr. Lee', 'specialty': 'Neurology'}]
