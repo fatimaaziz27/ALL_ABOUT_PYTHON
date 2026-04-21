@@ -105,26 +105,7 @@ print_area(square)
 
 
 
-# Q) Remove duplicate characters from string (no set).
 
-# ANSWER:
-
-def remove_duplicates(s):
-    result = ""
-    for char in s:
-        if char not in result:
-            result += char
-    return result
-
-# Example usage:
-s = "Programming"
-print("Original string:", s)
-print("String without duplicates:", remove_duplicates(s))
-
-# OUTPUT:
-
-# Original string: Programming
-# String without duplicates: Progamin
 
 
 
