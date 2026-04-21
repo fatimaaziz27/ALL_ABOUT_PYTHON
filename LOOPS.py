@@ -536,3 +536,14 @@ for student, courses in students_courses.items():
 # John: Math, Science, English
 # Alice: History, Biology, Chemistry
 # Bob: Physics, Computer Science, Math
+
+# 57. How do you iterate over both keys and values in dictionary?
+
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+for key, value in my_dict.items():
+    print(f"Key: {key}, Value: {value}")
+
+# OUTPUT:
+# Key: a, Value: 1
+# Key: b, Value: 2
+# Key: c, Value: 3
