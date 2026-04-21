@@ -156,22 +156,7 @@ print("String without duplicates:", remove_duplicates(s))
 # Original string: Programming
 # String without duplicates: Progamin
 
-# Q) Find first non-repeated character in string. 
 
-# ANSWER:
-
-def first_non_repeated(s):
-    for char in s:
-        if s.count(char) == 1:
-            return char
-    return None
-
-# Example usage:
-s = "none"
-print("First non-repeated character:", first_non_repeated(s))
-
-# OUTPUT:
-# First non-repeated character: o
 
 # Q) Rotate string left (`abc` → `bca`)
 
