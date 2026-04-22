@@ -1,4 +1,4 @@
-#                         Exception Handling
+#         Exception Handling
 
 # Division Error (ZeroDivisionError)
 
@@ -23,6 +23,7 @@ except ZeroDivisionError:
    print("Cannot divide by zero!")
 
 # Using else
+
 try:
    num = int(input("Enter a number: "))
 except:
