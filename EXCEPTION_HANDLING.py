@@ -21,3 +21,12 @@ except ValueError:
    print("Invalid number!")
 except ZeroDivisionError:
    print("Cannot divide by zero!")
+
+# Using else
+try:
+   num = int(input("Enter a number: "))
+except:
+   print("Error occurred!")
+else:
+   print("You entered:", num)
+
