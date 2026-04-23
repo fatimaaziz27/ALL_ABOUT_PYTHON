@@ -10,7 +10,12 @@ try:
    print("Result is:", result)
 except ZeroDivisionError:
    print("Cannot divide by zero!")
-   
+
+# OUTPUT:
+# Enter first number: 7
+# Enter second number: 7
+# Result is: 1.0
+
 # Multiple Exceptions
 
 try:
@@ -21,6 +26,8 @@ except ValueError:
    print("Invalid number!")
 except ZeroDivisionError:
    print("Cannot divide by zero!")
+   
+# OUTPUT:
 
 # Using else
 
@@ -30,6 +37,8 @@ except:
    print("Error occurred!")
 else:
    print("You entered:", num)
+
+# OUTPUT:
 
 # Using finally
 
@@ -41,6 +50,8 @@ except:
 finally:
    print("This block always runs")
 
+# OUTPUT:
+
 # Custom Message with Exception
 
 try:
@@ -48,4 +59,5 @@ try:
    print(100 / num)
 except Exception as e:
    print("Error:", e)
-
+   
+# OUTPUT:
