@@ -32,6 +32,7 @@ else:
    print("You entered:", num)
 
 # Using finally
+
 try:
    num = int(input("Enter a number: "))
    print("Number:", num)
@@ -39,3 +40,12 @@ except:
    print("Invalid input!")
 finally:
    print("This block always runs")
+
+# Custom Message with Exception
+
+try:
+   num = int(input("Enter a number: "))
+   print(100 / num)
+except Exception as e:
+   print("Error:", e)
+
