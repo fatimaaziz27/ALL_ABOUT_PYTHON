@@ -28,6 +28,8 @@ except ZeroDivisionError:
    print("Cannot divide by zero!")
    
 # OUTPUT:
+# Enter a number: 7
+# Result: 1.4285714285714286
 
 # Using else
 
@@ -39,6 +41,8 @@ else:
    print("You entered:", num)
 
 # OUTPUT:
+# Enter a number: 8
+# You entered: 8
 
 # Using finally
 
@@ -51,6 +55,9 @@ finally:
    print("This block always runs")
 
 # OUTPUT:
+# Enter a number: 8
+# Number: 8
+# This block always runs
 
 # Custom Message with Exception
 
@@ -61,3 +68,5 @@ except Exception as e:
    print("Error:", e)
    
 # OUTPUT:
+# Enter a number: 5
+# 20.0
