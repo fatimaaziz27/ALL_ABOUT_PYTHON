@@ -31,3 +31,11 @@ except:
 else:
    print("You entered:", num)
 
+# Using finally
+try:
+   num = int(input("Enter a number: "))
+   print("Number:", num)
+except:
+   print("Invalid input!")
+finally:
+   print("This block always runs")
