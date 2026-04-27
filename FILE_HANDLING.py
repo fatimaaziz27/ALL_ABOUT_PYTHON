@@ -29,3 +29,11 @@ for line in file:
 
 file.close()
 
+# Using with (Best Practice)
+
+with open("test.txt", "w") as file:
+   file.write("Using with statement")
+
+with open("test.txt", "r") as file:
+   print(file.read())
+
