@@ -1,7 +1,6 @@
 #             FILE HANDLING
 
 # Append to File
-
 # Example Code:
 file = open("test.txt", "a")
 file.write("\nThis is new added text")
@@ -28,7 +27,6 @@ file.close()
 
 
 # Write Multiple Lines
-
 # Example Code:
 file = open("data.txt", "w")
 file.write("Line 1\nLine 2\nLine 3")
@@ -60,7 +58,6 @@ file.close()
 
 
 # Read Line by Line
-
 # Example Code:
 file = open("data.txt", "r")
 for line in file:
@@ -81,8 +78,8 @@ file.close()
 # Line 2
 # Line 3
 
-# Using with (Best Practice)
 
+# Using with (Best Practice)
 # Example Code:
 with open("test.txt", "w") as file:
    file.write("Using with statement")
@@ -90,3 +87,15 @@ with open("test.txt", "r") as file:
    print(file.read())
 
 # Explaination:
+with open("test.txt", "w") as file:
+# Opens test.txt in write mode (w).
+# with automatically closes the file after work is done.
+   file.write("Using with statement")
+# Writes text into the file.
+with open("test.txt", "r") as file:
+# Opens the file in read mode (r).
+   print(file.read())
+# Reads and prints the file contents.
+# Output:
+# Using with statement
+# No need to use file.close() because with closes the file automatically.
