@@ -3,19 +3,20 @@
 # Append to File
 
 file = open("test.txt", "a")
-Opens the file test.txt in append mode (a).
-Append mode adds new data at the end of the file without deleting old data.
+# Opens the file test.txt in append mode (a).
+# Append mode adds new data at the end of the file without deleting old data.
 file.write("\nThis is new added text")
-Writes a new line of text into the file.
-\n moves the text to the next line.
+# Writes a new line of text into the file.
+# \n moves the text to the next line.
 file.close()
-Closes the file after writing.
+# Closes the file after writing.
 file = open("test.txt", "r")
-Opens the file in read mode (r).
+# Opens the file in read mode (r).
 print(file.read())
-Reads and prints all contents of the file.
+# Reads and prints all contents of the file.
 file.close()
-Closes the file after reading.
+# Closes the file after reading.
+
 
 # Write Multiple Lines
 
