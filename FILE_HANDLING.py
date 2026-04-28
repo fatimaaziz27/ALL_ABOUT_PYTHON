@@ -68,6 +68,20 @@ for line in file:
 
 file.close()
 
+file = open("data.txt", "r")
+# Opens the file data.txt in read mode (r).
+for line in file:
+# Reads the file one line at a time using a loop.
+   print(line)
+# Prints each line from the file.
+file.close()
+# Closes the file after reading.
+
+# Example Output:
+# Line 1
+# Line 2
+# Line 3
+
 # Using with (Best Practice)
 
 with open("test.txt", "w") as file:
