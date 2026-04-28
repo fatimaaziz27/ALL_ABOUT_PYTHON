@@ -20,6 +20,25 @@ file.close()
 
 # Write Multiple Lines
 
+file = open("data.txt", "w")
+# Opens the file data.txt in write mode (w).
+# If the file already exists, old content is erased.
+# If the file does not exist, a new file is created.
+file.write("Line 1\nLine 2\nLine 3")
+# Writes 3 lines into the file.
+# \n is used to move to the next line.
+file.close()
+# Closes the file after writing.
+file = open("data.txt", "r")
+# Opens the file in read mode (r).
+print(file.read())
+# Reads and prints all file contents.
+# Output:
+# Line 1
+# Line 2
+# Line 3
+file.close()
+# Closes the file after reading.
 
 
 # Read Line by Line
