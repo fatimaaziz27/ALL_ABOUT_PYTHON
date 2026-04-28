@@ -61,13 +61,13 @@ file.close()
 
 # Read Line by Line
 
+# Example Code:
 file = open("data.txt", "r")
-
 for line in file:
    print(line)
-
 file.close()
 
+# Explaination:
 file = open("data.txt", "r")
 # Opens the file data.txt in read mode (r).
 for line in file:
@@ -76,7 +76,6 @@ for line in file:
 # Prints each line from the file.
 file.close()
 # Closes the file after reading.
-
 # Example Output:
 # Line 1
 # Line 2
@@ -84,9 +83,10 @@ file.close()
 
 # Using with (Best Practice)
 
+# Example Code:
 with open("test.txt", "w") as file:
    file.write("Using with statement")
-
 with open("test.txt", "r") as file:
    print(file.read())
 
+# Explaination:
