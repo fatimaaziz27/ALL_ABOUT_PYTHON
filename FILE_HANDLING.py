@@ -2,6 +2,15 @@
 
 # Append to File
 
+# Example Code:
+file = open("test.txt", "a")
+file.write("\nThis is new added text")
+file.close()
+file = open("test.txt", "r")
+print(file.read())
+file.close()
+
+# Explaination:
 file = open("test.txt", "a")
 # Opens the file test.txt in append mode (a).
 # Append mode adds new data at the end of the file without deleting old data.
@@ -19,7 +28,9 @@ file.close()
 
 
 # Write Multiple Lines
+# Example Code:
 
+# Explaination:
 file = open("data.txt", "w")
 # Opens the file data.txt in write mode (w).
 # If the file already exists, old content is erased.
