@@ -20,13 +20,7 @@ file.close()
 
 # Write Multiple Lines
 
-file = open("data.txt", "w")
-file.write("Line 1\nLine 2\nLine 3")
-file.close()
 
-file = open("data.txt", "r")
-print(file.read())
-file.close()
 
 # Read Line by Line
 
