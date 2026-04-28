@@ -103,3 +103,24 @@ with open("test.txt", "r") as file:
 # Output:
 # Using with statement
 # No need to use file.close() because with closes the file automatically.
+
+# Read First N Characters
+
+# Example Code:
+file = open("test.txt", "r")
+data = file.read(10)
+print("First 10 characters:", data)
+file.close()
+
+# Explanation:
+file = open("test.txt", "r")
+# Opens test.txt in read mode (r).
+data = file.read(10)
+# Reads only the first 10 characters from the file.
+# Stores them in the variable data.
+print("First 10 characters:", data)
+# Prints the first 10 characters.
+file.close()
+# Closes the file after reading.
+# Example Output:
+# First 10 characters: Hello Worl
