@@ -21,7 +21,6 @@ print("The sum is", sum)
 # Enter second number: 2
 # The sum is 3
 
-
 # Country and City
 
 country = input("Enter your country: ")
@@ -32,7 +31,6 @@ print("You live in", city, ",", country)
 # Enter your country: pakistan
 # Enter your city: karachi
 # You live in karachi , pakistan
-
 
 # Simple Interest Input
 
@@ -54,4 +52,7 @@ food = input("Enter your favorite food: ")
 drink = input("Enter your favorite drink: ")
 print("You like", food, "and", drink)
 
-# OUTPUT:
+# # OUTPUT:
+# Enter your favorite food: pasta
+# Enter your favorite drink: sprite
+# You like pasta and sprite
