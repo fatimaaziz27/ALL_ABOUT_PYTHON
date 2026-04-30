@@ -17,6 +17,9 @@ sum = int(num1) + int(num2)
 print("The sum is", sum)
 
 # OUTPUT:
+# Enter first number: 1
+# Enter second number: 2
+# The sum is 3
 
 
 # Country and City
