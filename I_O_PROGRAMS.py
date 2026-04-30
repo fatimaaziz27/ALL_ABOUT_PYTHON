@@ -16,7 +16,6 @@ print("The sum is", sum)
 
 country = input("Enter your country: ")
 city = input("Enter your city: ")
-
 print("You live in", city, ",", country)
 
 # Simple Interest Input
@@ -24,14 +23,11 @@ print("You live in", city, ",", country)
 p = input("Enter principal: ")
 r = input("Enter rate: ")
 t = input("Enter time: ")
-
 si = (int(p) * int(r) * int(t)) / 100
-
 print("Simple Interest is", si)
 
 # Favorite Food
 
 food = input("Enter your favorite food: ")
 drink = input("Enter your favorite drink: ")
-
 print("You like", food, "and", drink)
