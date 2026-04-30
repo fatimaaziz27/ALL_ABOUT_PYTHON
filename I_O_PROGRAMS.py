@@ -12,7 +12,8 @@ num2 = input("Enter second number: ")
 sum = int(num1) + int(num2)
 print("The sum is", sum)
 
-Country and City
+# Country and City
+
 country = input("Enter your country: ")
 city = input("Enter your city: ")
 
