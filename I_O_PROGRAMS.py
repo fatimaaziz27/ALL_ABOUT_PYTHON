@@ -43,7 +43,10 @@ si = (int(p) * int(r) * int(t)) / 100
 print("Simple Interest is", si)
 
 # OUTPUT:
-
+# Enter principal: 1000
+# Enter rate: 5
+# Enter time: 2
+# Simple Interest is 100.0
 
 # Favorite Food
 
