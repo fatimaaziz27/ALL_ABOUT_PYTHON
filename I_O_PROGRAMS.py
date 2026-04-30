@@ -29,6 +29,9 @@ city = input("Enter your city: ")
 print("You live in", city, ",", country)
 
 # OUTPUT:
+# Enter your country: pakistan
+# Enter your city: karachi
+# You live in karachi , pakistan
 
 
 # Simple Interest Input
