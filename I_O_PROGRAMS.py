@@ -19,7 +19,8 @@ city = input("Enter your city: ")
 
 print("You live in", city, ",", country)
 
-Simple Interest Input
+# Simple Interest Input
+
 p = input("Enter principal: ")
 r = input("Enter rate: ")
 t = input("Enter time: ")
