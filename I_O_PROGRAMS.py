@@ -29,7 +29,8 @@ si = (int(p) * int(r) * int(t)) / 100
 
 print("Simple Interest is", si)
 
-Favorite Food
+# Favorite Food
+
 food = input("Enter your favorite food: ")
 drink = input("Enter your favorite drink: ")
 
