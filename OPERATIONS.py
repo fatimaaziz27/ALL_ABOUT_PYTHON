@@ -1,5 +1,12 @@
 #                                      Operations:
 
+# Multiplication & AND
+a = 6
+b = 4
+print("Multiplication:", a * b)
+print("Equal:", a == b)
+print("Logical AND:", (a > 2 and b < 5))
+
 # Q1) What will be the output of the following code?
 
 x = 10
