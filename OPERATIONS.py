@@ -7,6 +7,14 @@ print("Multiplication:", a * b)
 print("Equal:", a == b)
 print("Logical AND:", (a > 2 and b < 5))
 
+# Division & NOT
+
+p = 15
+q = 3
+print("Division:", p / q)
+print("Not Equal:", p != q)
+print("Logical NOT:", not(p > q))
+
 # Q1) What will be the output of the following code?
 
 x = 10
