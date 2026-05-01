@@ -1,6 +1,7 @@
 #                                      Operations:
 
 # Multiplication & AND
+
 a = 6
 b = 4
 print("Multiplication:", a * b)
