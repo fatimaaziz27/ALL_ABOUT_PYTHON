@@ -46,9 +46,9 @@ print("Less or Equal:", m <= n)
 print("Logical AND:", (m > 1 and n > 1))
 # OUTPUT:
     
-Power: 9
-Less or Equal: False
-Logical AND: True
+# Power: 9
+# Less or Equal: False
+# Logical AND: True
 
 # Q1) What will be the output of the following code?
 
