@@ -20,6 +20,10 @@ print("Division:", p / q)
 print("Not Equal:", p != q)
 print("Logical NOT:", not(p > q))
 # OUTPUT:
+    
+Division: 5.0
+Not Equal: True
+Logical NOT: False
 
 # Modulus & OR
 
