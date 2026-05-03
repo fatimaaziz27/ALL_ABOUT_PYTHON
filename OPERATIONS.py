@@ -8,6 +8,9 @@ print("Multiplication:", a * b)
 print("Equal:", a == b)
 print("Logical AND:", (a > 2 and b < 5))
 # OUTPUT:
+Multiplication: 24
+Equal: False
+Logical AND: True
 
 # Division & NOT
 
