@@ -7,7 +7,7 @@ b = 4
 print("Multiplication:", a * b)
 print("Equal:", a == b)
 print("Logical AND:", (a > 2 and b < 5))
-OUTPUT:
+# OUTPUT:
 
 # Division & NOT
 
@@ -16,7 +16,7 @@ q = 3
 print("Division:", p / q)
 print("Not Equal:", p != q)
 print("Logical NOT:", not(p > q))
-OUTPUT:
+# OUTPUT:
 
 # Modulus & OR
 
@@ -25,7 +25,7 @@ num2 = 5
 print("Remainder:", num1 % num2)
 print("Greater or Equal:", num1 >= num2)
 print("Logical OR:", (num1 < 10 or num2 < 10))
-OUTPUT:
+# OUTPUT:
 
 # Power & AND
 
@@ -34,7 +34,7 @@ n = 2
 print("Power:", m ** n)
 print("Less or Equal:", m <= n)
 print("Logical AND:", (m > 1 and n > 1))
-OUTPUT:
+# OUTPUT:
 
 # Q1) What will be the output of the following code?
 
