@@ -20,6 +20,7 @@ q = 3
 print("Division:", p / q)
 print("Not Equal:", p != q)
 print("Logical NOT:", not(p > q))
+
 # OUTPUT:  
 # Division: 5.0
 # Not Equal: True
@@ -32,6 +33,7 @@ num2 = 5
 print("Remainder:", num1 % num2)
 print("Greater or Equal:", num1 >= num2)
 print("Logical OR:", (num1 < 10 or num2 < 10))
+
 # OUTPUT:
 # Remainder: 2
 # Greater or Equal: True
@@ -44,11 +46,13 @@ n = 2
 print("Power:", m ** n)
 print("Less or Equal:", m <= n)
 print("Logical AND:", (m > 1 and n > 1))
-# OUTPUT:
-    
+
+# OUTPUT:  
 # Power: 9
 # Less or Equal: False
 # Logical AND: True
+
+# EXAMPLE QUESTIONS  -------->>
 
 # Q1) What will be the output of the following code?
 
