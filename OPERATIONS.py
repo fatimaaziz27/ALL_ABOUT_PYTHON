@@ -25,9 +25,9 @@ print("Greater or Equal:", num1 >= num2)
 print("Logical OR:", (num1 < 10 or num2 < 10))
 
 Power & AND
+
 m = 3
 n = 2
-
 print("Power:", m ** n)
 print("Less or Equal:", m <= n)
 print("Logical AND:", (m > 1 and n > 1))
