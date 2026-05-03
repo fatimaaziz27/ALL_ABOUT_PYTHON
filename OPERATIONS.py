@@ -16,7 +16,7 @@ print("Division:", p / q)
 print("Not Equal:", p != q)
 print("Logical NOT:", not(p > q))
 
-Modulus & OR
+# Modulus & OR
 
 num1 = 17
 num2 = 5
