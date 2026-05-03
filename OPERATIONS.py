@@ -17,9 +17,9 @@ print("Not Equal:", p != q)
 print("Logical NOT:", not(p > q))
 
 Modulus & OR
+
 num1 = 17
 num2 = 5
-
 print("Remainder:", num1 % num2)
 print("Greater or Equal:", num1 >= num2)
 print("Logical OR:", (num1 < 10 or num2 < 10))
