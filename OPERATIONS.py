@@ -33,6 +33,9 @@ print("Remainder:", num1 % num2)
 print("Greater or Equal:", num1 >= num2)
 print("Logical OR:", (num1 < 10 or num2 < 10))
 # OUTPUT:
+Remainder: 2
+Greater or Equal: True
+Logical OR: True
 
 # Power & AND
 
