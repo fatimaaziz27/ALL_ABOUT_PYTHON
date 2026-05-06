@@ -12,3 +12,10 @@ item = "Book"
 price = 500
 quantity = 2
 print(f"You bought {quantity} {item}s for {price} each")
+
+# Marks and Grade
+
+name = "Ahmed"
+marks = 92
+grade = "A"
+print(f"{name} scored {marks} marks and got grade {grade}")
