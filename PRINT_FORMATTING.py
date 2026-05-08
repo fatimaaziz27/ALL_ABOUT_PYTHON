@@ -15,6 +15,7 @@ price = 500
 quantity = 2
 print(f"You bought {quantity} {item}s for {price} each")
 # OUTPUT:
+You bought 2 Books for 500 each
 
 # Marks and Grade
 
