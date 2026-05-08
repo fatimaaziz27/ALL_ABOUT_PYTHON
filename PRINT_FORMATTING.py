@@ -13,6 +13,7 @@ item = "Book"
 price = 500
 quantity = 2
 print(f"You bought {quantity} {item}s for {price} each")
+# OUTPUT:
 
 # Marks and Grade
 
