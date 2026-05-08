@@ -26,9 +26,9 @@ city = "Karachi"
 temp = 35
 print(f"The temperature in {city} is {temp}°C")
 
-Simple Salary Info
+# Simple Salary Info
+
 employee = "Fatima"
 salary = 45000
-
 print(f"{employee}'s monthly salary is {salary} PKR")
 
