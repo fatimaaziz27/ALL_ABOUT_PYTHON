@@ -35,4 +35,5 @@ print(f"The temperature in {city} is {temp}°C")
 employee = "Fatima"
 salary = 45000
 print(f"{employee}'s monthly salary is {salary} PKR")
+# OUTPUT:
 
