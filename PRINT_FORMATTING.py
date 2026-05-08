@@ -21,6 +21,7 @@ name = "Ahmed"
 marks = 92
 grade = "A"
 print(f"{name} scored {marks} marks and got grade {grade}")
+# OUTPUT:
 
 # Temperature Display
 
