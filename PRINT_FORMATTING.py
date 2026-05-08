@@ -39,5 +39,6 @@ The temperature in Karachi is 35°C
 employee = "Fatima"
 salary = 45000
 print(f"{employee}'s monthly salary is {salary} PKR")
+
 # OUTPUT:
-Fatima's monthly salary is 45000 PKR
+# Fatima's monthly salary is 45000 PKR
