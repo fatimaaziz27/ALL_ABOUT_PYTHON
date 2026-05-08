@@ -6,6 +6,7 @@ name = "Sara"
 age = 18
 print(f"{name} is {age} years old")
 # OUTPUT:
+Sara is 18 years old
 
 # Price and Quantity
 
