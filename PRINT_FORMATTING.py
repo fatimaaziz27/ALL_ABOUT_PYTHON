@@ -28,6 +28,7 @@ print(f"{name} scored {marks} marks and got grade {grade}")
 city = "Karachi"
 temp = 35
 print(f"The temperature in {city} is {temp}°C")
+# OUTPUT:
 
 # Simple Salary Info
 
