@@ -7,10 +7,9 @@ num2 = input("Enter second number: ")
 result = float(num1) + float(num2)
 print("Sum is:", result)
 
-Integer Multiplication
+# Integer Multiplication
+
 a = input("Enter a number: ")
 b = input("Enter another number: ")
-
 product = int(a) * int(b)
-
 print("Product is:", product)
