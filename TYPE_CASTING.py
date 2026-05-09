@@ -13,3 +13,10 @@ a = input("Enter a number: ")
 b = input("Enter another number: ")
 product = int(a) * int(b)
 print("Product is:", product)
+
+String to Integer (Age Next Year)
+age = input("Enter your age: ")
+
+next_age = int(age) + 1
+
+print("Next year your age will be:", next_age)
