@@ -39,6 +39,9 @@ y = input("Enter second number: ")
 division = float(x) / float(y)
 print("Result is:", division)
 # OUTPUT:
+Enter first number: 3
+Enter second number: 8
+Result is: 0.375
 
 # Boolean Type Casting
 
