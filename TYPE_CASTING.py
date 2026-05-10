@@ -19,6 +19,10 @@ product = int(a) * int(b)
 print("Product is:", product)
 # OUTPUT:
 
+Enter a number: 3
+Enter another number: 7
+Product is: 21
+
 # String to Integer (Age Next Year)
 
 age = input("Enter your age: ")
