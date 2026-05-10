@@ -29,6 +29,8 @@ age = input("Enter your age: ")
 next_age = int(age) + 1
 print("Next year your age will be:", next_age)
 # OUTPUT:
+Enter your age: 18
+Next year your age will be: 19
 
 # Float Division
 
