@@ -27,10 +27,9 @@ y = input("Enter second number: ")
 division = float(x) / float(y)
 print("Result is:", division)
 
-Boolean Type Casting
+# Boolean Type Casting
+
 num = input("Enter a number: ")
-
 result = bool(int(num))
-
 print("Boolean value is:", result)
 
