@@ -20,10 +20,9 @@ age = input("Enter your age: ")
 next_age = int(age) + 1
 print("Next year your age will be:", next_age)
 
-Float Division
+# Float Division
+
 x = input("Enter first number: ")
 y = input("Enter second number: ")
-
 division = float(x) / float(y)
-
 print("Result is:", division)
