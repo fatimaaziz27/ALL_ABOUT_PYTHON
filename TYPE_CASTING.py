@@ -49,3 +49,6 @@ num = input("Enter a number: ")
 result = bool(int(num))
 print("Boolean value is:", result)
 # OUTPUT:
+Enter a number: 9
+Boolean value is: True
+
