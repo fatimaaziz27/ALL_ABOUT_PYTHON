@@ -7,9 +7,8 @@ num = 4.7
 print("Ceiling:", math.ceil(num))
 print("Floor:", math.floor(num))
 
-Factorial
+# Factorial
+
 import math
-
 num = 5
-
 print("Factorial:", math.factorial(num))
