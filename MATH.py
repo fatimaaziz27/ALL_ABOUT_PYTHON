@@ -12,3 +12,14 @@ print("Floor:", math.floor(num))
 import math
 num = 5
 print("Factorial:", math.factorial(num))
+
+Value of Pi and Area of Circle
+import math
+
+radius = 3
+
+area = math.pi * radius ** 2
+
+print("Value of Pi:", math.pi)
+print("Area of circle:", area)
+
