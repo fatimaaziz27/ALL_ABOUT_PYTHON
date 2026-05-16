@@ -20,3 +20,9 @@ area = math.pi * radius ** 2
 print("Value of Pi:", math.pi)
 print("Area of circle:", area)
 
+# Trigonometric Function
+
+angle = 0
+print("Sin:", math.sin(angle))
+print("Cos:", math.cos(angle))
+
