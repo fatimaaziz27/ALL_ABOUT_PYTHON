@@ -26,11 +26,9 @@ angle = 0
 print("Sin:", math.sin(angle))
 print("Cos:", math.cos(angle))
 
-Logarithm and Exponential
-import math
+#Logarithm and Exponential
 
 num = 10
-
 print("Log (base e):", math.log(num))
 print("Exponential:", math.exp(2))
 
