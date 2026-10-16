@@ -378,7 +378,10 @@ print(t)
 # Output:
 # (1, 2, 3, [4, 5, 6])
 # Explanation:
-# The tuple t itself is not being changed, but the list inside the tuple is being modified. This works because tuples in Python are immutable, but they can contain mutable objects like lists. When we modify the list inside the tuple, we are not changing the tuple itself, but rather the list object that the tuple references.
+# The tuple t itself is not being changed, but the list inside the tuple is being modified. 
+# This works because tuples in Python are immutable, but they can contain mutable objects like lists. 
+# When we modify the list inside the tuple, we are not changing the tuple itself,
+# but rather the list object that the tuple references.
 
 # 32. Convert tuple `(1, 2, 3)` to string "1-2-3" using `join()`.
 # Code:
