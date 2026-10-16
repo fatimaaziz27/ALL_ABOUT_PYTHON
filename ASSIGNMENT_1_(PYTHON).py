@@ -283,103 +283,103 @@ else:
 # Code:
 favorite_fruits = ["mango","grapes","pineapple","dragon fruit","custard apple"]
 print(favorite_fruits[2])
-Output:
-pineapple
+# Output:
+# pineapple
 
-22. Add a new fruit to the end. Print updated list. 
-Code:
+# 22. Add a new fruit to the end. Print updated list. 
+# Code:
 favorite_fruits = ["mango","grapes","pineapple","dragon fruit"]
 print(f"original list: {favorite_fruits}")
 favorite_fruits.append("custard apple")
 print(f"updated list: {favorite_fruits}")
-Output:
-original list: ['mango', 'grapes', 'pineapple', 'dragon fruit']
-updated list: ['mango', 'grapes', 'pineapple', 'dragon fruit', 'custard apple']
+# Output:
+# original list: ['mango', 'grapes', 'pineapple', 'dragon fruit']
+# updated list: ['mango', 'grapes', 'pineapple', 'dragon fruit', 'custard apple']
 
-23. Remove the 2nd item. Print the list. 
-Code:
+# 23. Remove the 2nd item. Print the list. 
+# Code:
 favorite_fruits = ["mango","grapes","pineapple","dragon fruit"]
 print(f"original List: {favorite_fruits}")
 favorite_fruits.pop(1)
 print(f"Updated List: {favorite_fruits}")
-Output:
-original List: ['mango', 'grapes', 'pineapple', 'dragon fruit']
-Updated List: ['mango', 'pineapple', 'dragon fruit']
+# Output:
+# original List: ['mango', 'grapes', 'pineapple', 'dragon fruit']
+# Updated List: ['mango', 'pineapple', 'dragon fruit']
 
- 24. Sort the list alphabetically and print it. 
-Code:
+#  24. Sort the list alphabetically and print it. 
+# Code:
 favorite_fruits = ["mango","grapes","pineapple","dragon fruit"]
 print(f"Original List: {favorite_fruits}")
 favorite_fruits.sort()
 print(f"Sorted List: {favorite_fruits}")
-Output:
-Original List: ['mango', 'grapes', 'pineapple', 'dragon fruit']
-Sorted List: ['dragon fruit', 'grapes', 'mango', 'pineapple']
+# Output:
+# Original List: ['mango', 'grapes', 'pineapple', 'dragon fruit']
+# Sorted List: ['dragon fruit', 'grapes', 'mango', 'pineapple']
 
-25. Replace all even numbers in a list of 5 numbers with "Even" using a loop. 
-Code:
+# 25. Replace all even numbers in a list of 5 numbers with "Even" using a loop. 
+# Code:
 numbers = [1,2,3,4,5,6,7,8]
 print(f"Original List: {numbers}")
 for i in range(len(numbers)):
     if numbers[i] % 2 == 0:
         numbers[i] = "Even"
 print(f"Updated List: {numbers}")
-Output:
-Original List: [1, 2, 3, 4, 5, 6, 7, 8]
-Updated List: [1, 'Even', 3, 'Even', 5, 'Even', 7, 'Even']
+# Output:
+# Original List: [1, 2, 3, 4, 5, 6, 7, 8]
+# Updated List: [1, 'Even', 3, 'Even', 5, 'Even', 7, 'Even']
 
-26. Write a function that returns a new list with only unique elements.
-Code:
+# 26. Write a function that returns a new list with only unique elements.
+# Code:
 import random
 x = [8, 5, 3, 9, 2, 45, 14, 83, 65]
 unique_list = list(set(x))
 print(f"Original List: {x}")
 print(f"Unique Elements: {unique_list}")
-Output:
-Original List: [8, 5, 3, 9, 2, 45, 14, 83, 65]
-Unique Elements: [65, 2, 3, 5, 8, 9, 45, 14, 83]
+# Output:
+# Original List: [8, 5, 3, 9, 2, 45, 14, 83, 65]
+# Unique Elements: [65, 2, 3, 5, 8, 9, 45, 14, 83]
 
-27. Sort a list of words by word length (not alphabetically). 
+# 27. Sort a list of words by word length (not alphabetically). 
 
-Tuples (Q28–Q32) 
+# Tuples (Q28–Q32) 
 
-28. Create a tuple of 5 countries. Try changing the 2nd country and observe what happens. 
-Code:
+# 28. Create a tuple of 5 countries. Try changing the 2nd country and observe what happens. 
+# Code:
 thistuple = ("Switzerland", "Japan", "United States", "Canada", "Australia")
 y = list(thistuple)
 y[1] = "France"
 thistuple = tuple(y)
 print(thistuple)
-Output:
-('Switzerland', 'France', 'United States', 'Canada', 'Australia')
+# Output:
+# ('Switzerland', 'France', 'United States', 'Canada', 'Australia')
 
-29. Print the last two countries using slicing.
-Code:
+# 29. Print the last two countries using slicing.
+# Code:
 thistuple = ("Switzerland", "Japan", "United States", "Canada", "Australia")
 print(thistuple[3:5])
-Output:
-('Canada', 'Australia')
+# Output:
+# ('Canada', 'Australia')
 
-30. Count how many times "Pakistan" appears in a tuple. 
-Code:
+# 30. Count how many times "Pakistan" appears in a tuple. 
+# Code:
 countries = ["pakistan","Canada","pakistan","Australia","pakistan","United States","pakistan","Switzerland","pakistan","Japan","pakistan"]
 x = countries.count("pakistan")
 print(x)
-Output:
-6
+# Output:
+# 6
 
-31. Given: `t = (1, 2, 3, [4, 5])`. Add 6 to the list inside the tuple and explain the result. 
-Code:
+# 31. Given: `t = (1, 2, 3, [4, 5])`. Add 6 to the list inside the tuple and explain the result. 
+# Code:
 t = (1, 2, 3, [4, 5])
 t[3].append(6)
 print(t)
-Output:
-(1, 2, 3, [4, 5, 6])
-Explanation:
-The tuple t itself is not being changed, but the list inside the tuple is being modified. This works because tuples in Python are immutable, but they can contain mutable objects like lists. When we modify the list inside the tuple, we are not changing the tuple itself, but rather the list object that the tuple references.
+# Output:
+# (1, 2, 3, [4, 5, 6])
+# Explanation:
+# The tuple t itself is not being changed, but the list inside the tuple is being modified. This works because tuples in Python are immutable, but they can contain mutable objects like lists. When we modify the list inside the tuple, we are not changing the tuple itself, but rather the list object that the tuple references.
 
-32. Convert tuple `(1, 2, 3)` to string "1-2-3" using `join()`.
-Code:
+# 32. Convert tuple `(1, 2, 3)` to string "1-2-3" using `join()`.
+# Code:
 Tuple = ("John", "Peter", "Vicky")
 x = "-".join(Tuple)
 print(x)
