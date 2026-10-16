@@ -541,4 +541,6 @@ print(x)
 # Output:
 # [1, 2, 3, 4]
 
-# The output is [1, 2, 3, 4] because y = x assigns the same memory reference to y as x, so both variables point to the same list. When you append 4 to y, you're modifying the same list that x references, resulting in x also reflecting the change.
+# The output is [1, 2, 3, 4] because y = x assigns the same memory reference to y as x, 
+# so both variables point to the same list. When you append 4 to y, you're modifying the same list that x references,
+# resulting in x also reflecting the change.
