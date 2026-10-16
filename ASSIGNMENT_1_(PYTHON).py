@@ -441,9 +441,13 @@ marks = {"Ali": 45, "Sara": 70, "Shayan": 65, "Osama": 30}
 
 # 39. Explain the difference between `is` and `==` in Python. 
 # Answer:
-print(a == b): # This statement checks if the values of a and b are equal. If a = [1, 2, 3] and b = [1, 2, 3], then a == b would be True because the values are the same.
-print(a is b): # This statement checks if a and b are the same object in memory. If a = [1, 2, 3] and b = [1, 2, 3], then a is b would be False because a and b are two separate objects in memory, even though they have the same values.
-# The statement print(a is a) would always be True, regardless of the value of a. This is because a is a is checking if a is the same object as itself, which is always the case.
+print(a == b): # This statement checks if the values of a and b are equal. If a = [1, 2, 3] 
+# and b = [1, 2, 3], then a == b would be True because the values are the same.
+print(a is b): # This statement checks if a and b are the same object in memory. If a = [1, 2, 3] 
+# and b = [1, 2, 3], then a is b would be False because a and b are two separate objects in memory, even though they have the same values.
+# The statement print(a is a) would always be True, regardless of the value of a. 
+# This is because a is a is checking if a is the same object as itself, which is always the case.
+
 # For example:
 a = [1, 2, 3]
 b = [1, 2, 3]
