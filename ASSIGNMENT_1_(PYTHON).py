@@ -485,25 +485,25 @@ original_list = [1, 2, 3]
 new_list1 = original_list            #Here original_list1 is assigned to new_list variable
 new_list2 = original_list.copy()             #new copy
 
-45. Can a tuple contain mutable items? Give a code example. 
-Answer:
-yes tuple can contain mutable items
-code example:
-Code Example:
+# 45. Can a tuple contain mutable items? Give a code example. 
+# Answer:
+# yes tuple can contain mutable items
+# code example:
+# Code Example:
 t = (1, 2, 3, [4, 5, 6, 7])
 
-46. What is the difference between `in` when used in a list vs a dictionary?
-Answer:
-The in operator behaves differently when used with lists and dictionaries.
-Lists: in checks if a value is present in the list.
-Dictionaries: in checks if a key is present in the dictionary.
+# 46. What is the difference between `in` when used in a list vs a dictionary?
+# Answer:
+# The in operator behaves differently when used with lists and dictionaries.
+# Lists: in checks if a value is present in the list.
+# Dictionaries: in checks if a key is present in the dictionary.
 
-47 Explain shallow copy vs deep copy with a list example. 
-Answer:
-When copying a list, you can use either shallow copy or deep copy.
-Shallow Copy: Creates a new list and copies the references of the original elements. If the original list contains mutable elements (like lists or dictionaries), modifying those elements in the copied list will affect the original list.
-Deep Copy: Creates a new list and recursively copies the elements. Modifying any element in the copied list will not affect the original list.
-Code Example:
+# 47 Explain shallow copy vs deep copy with a list example. 
+# Answer:
+# When copying a list, you can use either shallow copy or deep copy.
+# Shallow Copy: Creates a new list and copies the references of the original elements. If the original list contains mutable elements (like lists or dictionaries), modifying those elements in the copied list will affect the original list.
+# Deep Copy: Creates a new list and recursively copies the elements. Modifying any element in the copied list will not affect the original list.
+# Code Example:
 import copy
 original_list = [[1, 2], [3, 4]]
 
@@ -522,18 +522,18 @@ deep_copied_list[0][0] = 'X'
 print(original_list) 
 print(deep_copied_list) 
 
-48. What is the output of: 
+# 48. What is the output of: 
 x = [1, 2, 3] 
 y = x 
 y.append(4) 
 print(x) 
-Explain the result.
-Answer:
-x = [1, 2, 3]: Creates a list [1, 2, 3] and assigns it to x.
-y = x: Assigns the reference of x to y, so both x and y point to the same list object.
-y.append(4): Updates the list by adding 4 to it.
-print(x): Prints the updated list [1, 2, 3, 4].
-Output:
-[1, 2, 3, 4]
+# Explain the result.
+# Answer:
+# x = [1, 2, 3]: Creates a list [1, 2, 3] and assigns it to x.
+# y = x: Assigns the reference of x to y, so both x and y point to the same list object.
+# y.append(4): Updates the list by adding 4 to it.
+# print(x): Prints the updated list [1, 2, 3, 4].
+# Output:
+# [1, 2, 3, 4]
 
-The output is [1, 2, 3, 4] because y = x assigns the same memory reference to y as x, so both variables point to the same list. When you append 4 to y, you're modifying the same list that x references, resulting in x also reflecting the change.
+# The output is [1, 2, 3, 4] because y = x assigns the same memory reference to y as x, so both variables point to the same list. When you append 4 to y, you're modifying the same list that x references, resulting in x also reflecting the change.
