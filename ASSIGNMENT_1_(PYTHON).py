@@ -56,7 +56,9 @@ print(type(x) , type(y))
 a = "5"
 b = 3
 print(a+b)
-# would result in a TypeError, because Python can't add strings and integers together. To fix this, we use the int() function to convert the string "5" to an integer, like this: a = int("5"). Then, print(a+b) works correctly and outputs 8.
+# would result in a TypeError, because Python can't add strings and integers together. 
+# To fix this, we use the int() function to convert the string "5" to an integer, like this: a = int("5"). 
+# Then, print(a+b) works correctly and outputs 8.
 a = int ("5")
 b = 3
 print(a+b)
