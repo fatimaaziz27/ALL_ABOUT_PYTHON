@@ -505,7 +505,8 @@ t = (1, 2, 3, [4, 5, 6, 7])
 # 47 Explain shallow copy vs deep copy with a list example. 
 # Answer:
 # When copying a list, you can use either shallow copy or deep copy.
-# Shallow Copy: Creates a new list and copies the references of the original elements. If the original list contains mutable elements (like lists or dictionaries), modifying those elements in the copied list will affect the original list.
+# Shallow Copy: Creates a new list and copies the references of the original elements. 
+# If the original list contains mutable elements (like lists or dictionaries), modifying those elements in the copied list will affect the original list.
 # Deep Copy: Creates a new list and recursively copies the elements. Modifying any element in the copied list will not affect the original list.
 # Code Example:
 import copy
