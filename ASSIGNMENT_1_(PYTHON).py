@@ -388,98 +388,99 @@ print(t)
 Tuple = ("John", "Peter", "Vicky")
 x = "-".join(Tuple)
 print(x)
-Output:  John-Peter-Vicky
+# Output:  John-Peter-Vicky
 
-Dictionaries (Q33–Q38) 
+# Dictionaries (Q33–Q38) 
 
-33. Create dictionary `student` with keys: `name`, `age`, `grade`. Print all key-value pairs.
-Code:
+# 33. Create dictionary `student` with keys: `name`, `age`, `grade`. Print all key-value pairs.
+# Code:
 student= {'name:fatima','age:65','grade:fifth'}
 print(student)
-Output:
-{'grade:fifth', 'name:fatima', 'age:65'}
+# Output:
+# {'grade:fifth', 'name:fatima', 'age:65'}
 
-34. Add new key `subject` to the dictionary. Print updated dictionary.
-Code:
+# 34. Add new key `subject` to the dictionary. Print updated dictionary.
+# Code:
 student= {'name : fatima','age : 65','grade : fifth'}
 student.update({"subject : CS"})
 print(student)
-Output:
-{'subject : CS', 'grade : fifth', 'age : 65', 'name : fatima'}
+# Output:
+# {'subject : CS', 'grade : fifth', 'age : 65', 'name : fatima'}
 
-35. Search for a key. If found, print the value. 
-Code:
+# 35. Search for a key. If found, print the value. 
+# Code:
 student={'grade : fifth', 'age : 65', 'name : fatima'}
 if "subject" in student:
     print("Yes, 'subject' is one of the keys in the student dictionary")
 else:
     print("The 'subject' key is not in the student dictionary.")
-Output:
-The 'subject' key is not in the student dictionary.
+# Output:
+# The 'subject' key is not in the student dictionary.
 
-36. Create dictionary of 3 students and their marks. Calculate average.
-Code:
+# 36. Create dictionary of 3 students and their marks. Calculate average.
+# Code:
 students = {'yusra': 80,'asfiya': 90,'zainab': 70}
 average = (80 + 90 + 70) / 3
 print("Average:", average)
-Output:
-Average: 80.0
+# Output:
+# Average: 80.0
 
-37. Given items and prices in a dictionary, input a budget and list affordable items. Given: 
+# 37. Given items and prices in a dictionary, input a budget and list affordable items. Given: 
 marks = {"Ali": 45, "Sara": 70, "Shayan": 65, "Osama": 30} 
-Print students scoring ≥50. 
-Count how many failed. 
+# Print students scoring ≥50. 
+# Count how many failed. 
 
-Interview & Conceptual (Q39–Q50) 
+# Interview & Conceptual (Q39–Q50) 
 
-38. What’s the difference between mutable and immutable types? Give examples.
-Answer:
-Mutable  Types: Can be changed after created and can be modified 
-Examples: lists, dictionaries, sets
-Immutable  Types: Cannot be changed after created and cannot be modified in-place; instead, a new object is created
-Examples: integers, floats, strings, tuples
+# 38. What’s the difference between mutable and immutable types? Give examples.
+# Answer:
+# Mutable  Types: Can be changed after created and can be modified 
+# Examples: lists, dictionaries, sets
+# Immutable  Types: Cannot be changed after created and cannot be modified in-place; instead, a new object is created
+# Examples: integers, floats, strings, tuples
 
-39. Explain the difference between `is` and `==` in Python. 
-Answer:
-print(a == b): This statement checks if the values of a and b are equal. If a = [1, 2, 3] and b = [1, 2, 3], then a == b would be True because the values are the same.
-print(a is b): This statement checks if a and b are the same object in memory. If a = [1, 2, 3] and b = [1, 2, 3], then a is b would be False because a and b are two separate objects in memory, even though they have the same values.
-The statement print(a is a) would always be True, regardless of the value of a. This is because a is a is checking if a is the same object as itself, which is always the case.
-For example:
+# 39. Explain the difference between `is` and `==` in Python. 
+# Answer:
+print(a == b): # This statement checks if the values of a and b are equal. If a = [1, 2, 3] and b = [1, 2, 3], then a == b would be True because the values are the same.
+print(a is b): # This statement checks if a and b are the same object in memory. If a = [1, 2, 3] and b = [1, 2, 3], then a is b would be False because a and b are two separate objects in memory, even though they have the same values.
+# The statement print(a is a) would always be True, regardless of the value of a. This is because a is a is checking if a is the same object as itself, which is always the case.
+# For example:
 a = [1, 2, 3]
 b = [1, 2, 3]
 print(a == b)          # Output: True
 print(a is b)           # Output: False
 print(a is a)           # Output: True
 
-40. Can you change values in a tuple? Why or why not? 
-Answer:
-No, you cannot change values in a tuple.
-Tuples are immutable in Python, which means their contents cannot be modified after creation.
-When you try to modify a tuple, you'll get a TypeError.
+# 40. Can you change values in a tuple? Why or why not? 
+# Answer:
+# No, you cannot change values in a tuple.
+# Tuples are immutable in Python, which means their contents cannot be modified after creation.
+# When you try to modify a tuple, you'll get a TypeError.
 
-41. Explain how `elif` works. Can it exist without `if`? 
-Answer:
-It's used to check another condition if the initial if condition is false If the if condition is false, the program will then check the elif condition If the elif condition is true, the code under it will be executed.
-No, elif cannot exist without if. elif is a part of the if-elif-else statement and is used to extend the if statement.
+# 41. Explain how `elif` works. Can it exist without `if`? 
+# Answer:
+# It's used to check another condition if the initial if condition is false If the if condition is false, 
+# the program will then check the elif condition If the elif condition is true, the code under it will be executed.
+# No, elif cannot exist without if. elif is a part of the if-elif-else statement and is used to extend the if statement.
 
-42. What happens when accessing a non-existent dictionary key? How to avoid it?
-Answer:
-When you try to access a key that doesn't exist in a dictionary, Python will raise a KeyError.
-To avoid it, check if the key exists or use other methods like get().
+# 42. What happens when accessing a non-existent dictionary key? How to avoid it?
+# Answer:
+# When you try to access a key that doesn't exist in a dictionary, Python will raise a KeyError.
+# To avoid it, check if the key exists or use other methods like get().
 
-43. Why are strings immutable in Python? What are the benefits? 
-Answer:
-Strings are immutable in Python for security, thread safety, performance, and code integrity. It makes code more predictable, efficient, and secure.
-The benefits of immutable strings in Python are:
-Code predictability: Immutable strings ensure that string data remains consistent and predictable.
-Memory efficiency: Immutable strings can be reused and cached, reducing memory usage.
-Security: Immutable strings reduce the risk of sensitive data being modified after creation.
+# 43. Why are strings immutable in Python? What are the benefits? 
+# Answer:
+# Strings are immutable in Python for security, thread safety, performance, and code integrity. It makes code more predictable, efficient, and secure.
+# The benefits of immutable strings in Python are:
+# Code predictability: Immutable strings ensure that string data remains consistent and predictable.
+# Memory efficiency: Immutable strings can be reused and cached, reducing memory usage.
+# Security: Immutable strings reduce the risk of sensitive data being modified after creation.
 
-44. Difference between `list.copy()` and using `=` assignment? Show example.
-Answer:
-list.copy() creates a new, independent copy of the original list.
-“=” is used to assign a reference to the original list, not create a new copy.
-Example:
+# 44. Difference between `list.copy()` and using `=` assignment? Show example.
+# Answer:
+# list.copy() creates a new, independent copy of the original list.
+# “=” is used to assign a reference to the original list, not create a new copy.
+# Example:
 original_list = [1, 2, 3]
 new_list1 = original_list            #Here original_list1 is assigned to new_list variable
 new_list2 = original_list.copy()             #new copy
