@@ -1,69 +1,70 @@
-ASSIGNMENT 1 (PYTHON)
-Variables & Data Types (Q1–Q10) 
+# ASSIGNMENT 1 (PYTHON)
+# Variables & Data Types (Q1–Q10) 
 
-1. Create a variable `student_name`, assign your name, and print its type. 
-code:
+# 1. Create a variable `student_name`, assign your name, and print its type. 
+# code:
 student_name="fatima aziz"
 print(type(student_name))
-Output:
-<class 'str'>
+# Output:
+# <class 'str'>
 
-2. Store your age in a variable. Multiply it by 2 and print the result. 
-code:
+# 2. Store your age in a variable. Multiply it by 2 and print the result. 
+# code:
 age=18
 print(age*2)
-Output:
-36
+# Output:
+# 36
 
-3. Create three variables with an integer, a string, and a float. Print their types.
-code:
+# 3. Create three variables with an integer, a string, and a float. Print their types.
+# code:
+
 x="yusra"
 y=16
 z=3.14
 print(type(x))
 print(type(z))
 print(type(y))
-Output:
-<class 'str'>
-<class 'float'>
-<class 'int'>
+# Output:
+# <class 'str'>
+# <class 'float'>
+# <class 'int'>
 
-4. Convert the integer `5j5` to a string and concatenate with " is a number".
-code:
+# 4. Convert the integer `5j5` to a string and concatenate with " is a number".
+# code:
 x = str("12")
 print(x +" "+"is a number")
-Output:
-12 is a number
+# Output:
+# 12 is a number
 
-5. Input two numbers, print their sum and the type of the result.
-code:
+# 5. Input two numbers, print their sum and the type of the result.
+# code:
 x = int(input('enter a number'))
 y = int(input('enter a number'))
 print(x+y)
 print(type(x) , type(y))
-Output:
-enter a number
-8
-enter a number
-9
-17
-<class 'int'> <class 'int'>
+# Output:
+# enter a number
+# 8
+# enter a number
+# 9
+# 17
+# <class 'int'> <class 'int'>
 
-6. Assign `a = "5"` (string) and `b = 3`. Add them correctly and explain the result.
-Explanation:
-If we used 
+# 6. Assign `a = "5"` (string) and `b = 3`. Add them correctly and explain the result.
+# Explanation:
+# If we used 
 a = "5"
 b = 3
 print(a+b)
-would result in a TypeError, because Python can't add strings and integers together. To fix this, we use the int() function to convert the string "5" to an integer, like this: a = int("5"). Then, print(a+b) works correctly and outputs 8.
+# would result in a TypeError, because Python can't add strings and integers together. To fix this, we use the int() function to convert the string "5" to an integer, like this: a = int("5"). Then, print(a+b) works correctly and outputs 8.
 a = int ("5")
 b = 3
 print(a+b)
-Output:
-8
+# Output:
+# 8
 
-7. Swap values of two variables without a third variable. 
-code:
+# 7. Swap values of two variables without a third variable. 
+# code:
 a = 5
 b = 6
 print(a)
@@ -71,49 +72,49 @@ print(b)
 a,b = b,a
 print(f"value after swapping variable a = {a}")
 print(f"value after swapping variable b = {b}")
-Output:
-5
-6
-value after swapping variable a = 6
-value after swapping variable b = 5
+# Output:
+# 5
+# 6
+# value after swapping variable a = 6
+# value after swapping variable b = 5
 
-8. What is the type and output of: `result = 3 + 4.0 + True`? 
-code:
+# 8. What is the type and output of: `result = 3 + 4.0 + True`? 
+# code:
 result = 56 + 4.53 + True
 print(f"the output is {result}")
 print(f"the type of output is {type(result)}")
-Output:
-the output is 61.53
-the type of output is <class 'float'>
+# Output:
+# the output is 61.53
+# the type of output is <class 'float'>
 
-9. Input a float number and print if it’s an integer (without using `int()`). 
-code:
+# 9. Input a float number and print if it’s an integer (without using `int()`). 
+# code:
 num=float(input("enter a decimal number:"))
 if num%1==0:
     print("The number is an integer")
 else:
     print("The number is not an integer.")
-Output:
-enter a decimal number:
-6.7
-The number is not an integer.
+# Output:
+# enter a decimal number:
+# 6.7
+# The number is not an integer.
 
-10. Use `isinstance()` to check whether an input is float or integer. 
-code:
+# 10. Use `isinstance()` to check whether an input is float or integer. 
+# code:
 x = isinstance(4.6456, (float, int,))
 print(x)
 if x==False:
     print("The object is neither an integer nor a float.")
 else:
     print("The object is either an integer or a float.")
-Output:
-True
-The object is either an integer or a float.
+# Output:
+# True
+# The object is either an integer or a float.
 
-Conditions (if/elif/else) (Q11–Q20) 
+# Conditions (if/elif/else) (Q11–Q20) 
 
-11. Check if a number is positive, negative, or zero. 
-Code:
+# 11. Check if a number is positive, negative, or zero. 
+# Code:
 num = int(input("enter a number:"))
 if num > 0:
     print("Positive")
@@ -121,25 +122,25 @@ elif num < 0:
     print("Negative")
 else:
     print("Zero")
-Output:
-enter a number:
-0
-Zero
+# Output:
+# enter a number:
+# 0
+# Zero
 
-12. Input marks; print "Passed" if ≥50, else "Failed". 
-Code:
+# 12. Input marks; print "Passed" if ≥50, else "Failed". 
+# Code:
 marks = int(input("Enter marks:"))
 if marks >= 50:
     print("Passed")
 else:
     print("Failed")
-Output:
-Enter marks:
-75
-Passed
+# Output:
+# Enter marks:
+# 75
+# Passed
 
-13. Find the largest of three numbers using if/elif/else.
-Code:
+# 13. Find the largest of three numbers using if/elif/else.
+# Code:
 num1 =int(input("Enter first number:"))
 num2 =int(input("Enter second number:"))
 num3 =int(input("Enter third number:"))
@@ -149,17 +150,17 @@ elif num2 >= num1 and num2 >= num3:
     print(f"The largest number is {num2}.")
 else:
     print(f"The largest number is {num3}.")
-Output:
-Enter first number:
-30
-Enter second number:
-59
-Enter third number:
-49
-The largest number is 59.
+# Output:
+# Enter first number:
+# 30
+# Enter second number:
+# 59
+# Enter third number:
+# 49
+# The largest number is 59.
 
-14. Input age. Print: Child (age <13), Teen (13–19), Adult (20+).
-Code:
+# 14. Input age. Print: Child (age <13), Teen (13–19), Adult (20+).
+# Code:
 age=int(input("Enter age: "))
 if age < 13:
     print("Child")
@@ -167,25 +168,25 @@ elif  age <= 19:
     print("Teen")
 else:
     print("Adult")
-Output:
-Enter age: 
-18
-Teen
+# Output:
+# Enter age: 
+# 18
+# Teen
 
-15. Check whether a number is even or odd using `%`. 
-Code:
+# 15. Check whether a number is even or odd using `%`. 
+# Code:
 n=int(input("enter a number:"))
 if n % 2 == 0:
     print(f"{n} is an even number")
 else:
     print(f"{n} is an odd number")
-Output:
-enter a number:
-6
-6 is an even number
+# Output:
+# enter a number:
+# 6
+# 6 is an even number
 
-16. Input two subjects' marks. Print: “Both Passed”, “One Passed”, or “None Passed”.
-Code:
+# 16. Input two subjects' marks. Print: “Both Passed”, “One Passed”, or “None Passed”.
+# Code:
 math=int(input("Enter marks for math:"))
 computer=int(input("Enter marks for computer:"))
 if math >= 50 and computer >= 50:
@@ -194,15 +195,15 @@ elif math >= 50 or computer >= 50:
     print("One Passed")
 else:
     print("None Passed")
-Output:
-Enter marks for math:
-50
-Enter marks for computer:
-60
-Both Passed
+# Output:
+# Enter marks for math:
+# 50
+# Enter marks for computer:
+# 60
+# Both Passed
 
-17. Classify a triangle as Equilateral, Isosceles, or Scalene using its sides.
-Code:
+# 17. Classify a triangle as Equilateral, Isosceles, or Scalene using its sides.
+# Code:
 a =int(input("Enter side a:"))
 b =int(input("Enter side b:"))
 c =int(input("Enter side c:"))
@@ -215,17 +216,17 @@ if a + b > c and a + c > b and b + c > a:
         print("The triangle is Scalene")
 else:
     print("The sides do not form a valid triangle.")
-Output:
-Enter side a:
-6
-Enter side b:
-6
-Enter side c:
-6
-The triangle is Equilateral
+# Output:
+# Enter side a:
+# 6
+# Enter side b:
+# 6
+# Enter side c:
+# 6
+# The triangle is Equilateral
 
-18. Input a number. Print "Fizz" if divisible by 3, "Buzz" if 5, "FizzBuzz" if both.
-Code:
+# 18. Input a number. Print "Fizz" if divisible by 3, "Buzz" if 5, "FizzBuzz" if both.
+# Code:
 num =int(input("Enter a number: "))
 if num % 3 == 0 and num % 5 == 0:
     print("FizzBuzz")
@@ -235,13 +236,13 @@ elif num % 5 == 0:
     print("Buzz")
 else:
     print("not divisible by either 3 or 5")
-Output:
-Enter a number: 
-2
-not divisible by either 3 or 5
+# Output:
+# Enter a number: 
+# 2
+# not divisible by either 3 or 5
 
-19. Input temperature. Print: Freezing (<0), Cold (0–15), Moderate (16–30), Hot (>30).
-Code:
+# 19. Input temperature. Print: Freezing (<0), Cold (0–15), Moderate (16–30), Hot (>30).
+# Code:
 temp = float(input("Enter temperature: "))
 if temp < 0:
     print("Freezing")
@@ -251,13 +252,13 @@ elif temp <= 30:
     print("Moderate")
 else:
     print("Hot")
-Output:
-Enter temperature: 
-12
-Cold
+# Output:
+# Enter temperature: 
+# 12
+# Cold
 
-20. Validate username and password: Username ≥5 chars, Password has 1 digit and 1 special char.
-Code:
+# 20. Validate username and password: Username ≥5 chars, Password has 1 digit and 1 special char.
+# Code:
 user_name=str(input("enter user name:"))
 password=str((input("enter password:")))
 if len(user_name) >= 5:
@@ -268,18 +269,18 @@ if any(char.isdigit() for char in password) and any(char in "!@#$%^&*(),.?\":{}|
     print("Password is valid")
 else:
     print("Password should have at least one digit and one special character.")
-Output:
-enter user name:
-hhhhh
-enter password:
-123()*hf
-Username is valid
-Password is valid
+# Output:
+# enter user name:
+# hhhhh
+# enter password:
+# 123()*hf
+# Username is valid
+# Password is valid
  
-Lists (Q21–Q27) 
+# Lists (Q21–Q27) 
 
-21. Create a list of 5 favorite fruits. Print the 3rd fruit. 
-Code:
+# 21. Create a list of 5 favorite fruits. Print the 3rd fruit. 
+# Code:
 favorite_fruits = ["mango","grapes","pineapple","dragon fruit","custard apple"]
 print(favorite_fruits[2])
 Output:
